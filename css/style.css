@@ -176,7 +176,7 @@ transition: all 1s;
 .Noticia-home3{
     display: grid;
     grid-template-columns:200px 1100px 200px  ;
-    grid-template-rows: 100px 500px 400px;
+    grid-template-rows: 100px 500px 550px;
     grid-column-gap: 30px;
     grid-row-gap: 60px;
 }
@@ -202,7 +202,34 @@ transition: all 1s;
     font-size: 19px;
 }
 
-
+.Noticia-home4{
+    display: grid;
+    grid-template-columns:200px 1100px 200px  ;
+    grid-template-rows: 100px 1300px 150px;
+    grid-column-gap: 30px;
+    grid-row-gap: 60px;
+}
+.Titulo-home4{
+    background-color: black;
+    color: white;
+    grid-column: 2/3;
+    font-size: 35px;
+    justify-self: center;
+    align-self: center;
+}
+.Imagen-home4{
+    background-image: url(../img/61b6413b4cf43702c75d4f6a-2021-ferrari-abu-dhabi-grand-prix-race-report-gtw2.jfif);
+    width: auto;
+    height: 1300px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.Texto-home4{
+    grid-column: 2/3;
+    font-size: 19px;
+}
 
 
 
