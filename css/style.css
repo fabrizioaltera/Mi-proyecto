@@ -12,104 +12,6 @@
 /* Css para HOME  ----------------------------------------------------------*/
 
 
-
-/* div a.iconoHome{
-    display: flex;
-    flex-wrap: nowrap;
-    margin-left: 600px;
-}
-
-.navegador {
-display: grid;
-grid-template-areas: "Home Autos Tienda Universo Usuario";
-gap: 30px;
-justify-content: space-between;
-max-height: 100px;
-
-}
-
-.navegador #Home {
-    grid-area: Home;
- 
-    margin-left: 20px;
-    height: 100px;
-    width: 100px;
-    transition: all 1s;
-}
-.navegador #Home:hover{
-    color: white;
-    background-color: black;
-}
-.navegador #Autos{
-    grid-area: Autos;
-transition: all 1s;
-
-}
-.navegador #Autos:hover {
-    color: white;
-    background-color: black;
-    
-
-}
-
-.navegador #Tienda{
-    grid-area: Tienda;
-    transition: all 1s;
-}
-.navegador #Tienda:hover{
-    color: white;
-    background-color: black;
-}
-.navegador #Universo{
-    grid-area: Universo;
-    transition: all 1s;
-}
-.navegador #Universo:hover{
-    color: white;
-    background-color: black;
-}
-.navegador #Usuario {
-    grid-area: Usuario;
-    margin-right: 20px;
-    transition: all 1s;
-}
-.navegador #Usuario:hover{
-    color: white;
-    background-color: black;
-    cursor: pointer;
-}
-
-.imagenPadre{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 350px;
-    justify-content:stretch;
-}
-.imagenFondo {
-    background-image: url(../img/iniciosf90.jpg);
-    /* float: right; */
-   /*  width: 100%;
-    height: 350px;
-    background-repeat: no-repeat;
-    margin: auto; */
-    /* size: 100px 100px; */
-    /* background-size: 100%;
-    
-    justify-items: stretch;
-    
-} */
-/* .imageFondo {
-    background-image: url(../img/sf90spider.jpg) ;
-    /* float: left; */
-    /* width: 100%;
-    height: 350px;
-    background-repeat: no-repeat;
-    margin: auto;
-    background-size: 100%;
-    background-position: center;
-    
-}  */
-
 .Noticia-home1{
     display: grid;
     grid-template-columns: 200px 1100px 200px;
@@ -230,6 +132,8 @@ transition: all 1s;
 .Texto-home4{
     grid-column: 2/3;
     font-size: 19px;
+    grid-column: 2/3;
+    font-size: 19px;
 }
 
 
@@ -240,121 +144,263 @@ transition: all 1s;
 
 
 
-footer {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 35px 90px 90px;
-    gap: 5px;
-    color:black;
-}
-footer img.ig{
-    grid-column: 1/2;
-     justify-self: center;
-     align-self: top;
-     
- }
- div.grid_instagram{
-     grid-column: 1/2;
-     grid-row: 2/4;
-     display: flex;
-     flex-wrap: wrap;
-     flex-flow: column;
-     justify-content: center;
-     align-items: center;
- }
- 
- 
 
- footer img.fb{
-     grid-column: 2/3;
-     justify-self: center;
-     align-self: top;
- }
- div.grid_facebook{
-    grid-row: 2/4;
-    display: flex;
-     flex-wrap: wrap;
-     flex-flow: column;
-     justify-content: center;
-     align-items: center;
- }
- footer img.in {
-     grid-column: 3/4;
-     grid-row: 1/2;
-     justify-self: center;
-     align-self: top;
- }
-div.grid_linkedin{
-    grid-row: 2/4;
-    display: flex;
-     flex-wrap: wrap;
-     flex-flow: column;
-     justify-content: center;
-     align-items: center;
-}
- footer img.tw{
-     grid-column: 4/5;
-     grid-row: 1/2;
-    justify-self: center;
-    align-self: top;
- }
- div.grid_twitter{
-    grid-row: 2/4;
-    display: flex;
-     flex-wrap: wrap;
-     flex-flow: column;
-     justify-content: center;
-     align-items: center;
- }
-footer img.yt{
-    grid-column: 5/6;
-    grid-row: 1/2;
-    justify-self: center;
-    align-self: top;
-}
-div.grid_youtube{
-    grid-row: 2/4;
-    display: flex;
-     flex-wrap: wrap;
-     flex-flow: column;
-     justify-content: center;
-     align-items: center;
-}
 
 
 
 /* media queries */
 
 @media  (max-width:768px) {
-    div a.iconoHome{
-        display: flex;
-    flex-wrap: nowrap;
-    margin-left: 350px;
+    
+    
+
+
+@media  (min-width:380px) and (max-width:460px) {
+
+    .Noticia-home1 {
+        display: grid;
+        grid-template-columns: 50px 275px 50px;
+        grid-template-rows: 25px 125px 175px;
+        grid-column-gap: 7px;
+        grid-row-gap: 15px;
+    }
+    .Titulo-home1{
+        background-color: black;
+        color: white;
+        grid-column: 2/3;
+        font-size: 9px;
+        justify-self: center;
+        align-self: center;
+    } 
+    .Imagen-home1{
+        background-image: url(../img/6a0a3abf-ec3e-47b7-9930-7b3e2ec892fb.jpg);
+        width: 100%;
+        height: 125px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .Texto-home1{
+        grid-column: 2/3;
+        font-size: 5px;
     }
     
-.navegador{
+    .Noticia-home2{
+        display: grid;
+        grid-template-columns:50px 275px 50px  ;
+        grid-template-rows: 25px 85px 110px;
+        grid-column-gap: 7.5px;
+        grid-row-gap: 15px;
+    }
+    .Titulo-home2{
+        background-color: black;
+        color: white;
+        grid-column: 2/3;
+        font-size: 9px;
+        justify-self: center;
+        align-self: center;
+    }
+    .Imagen-home2{
+        background-image:url(../img/Notiferrari.jpg);
+        width: 100%;
+        height: 125px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .Texto-home2{
+        grid-column: 2/3;
+        font-size: 5px;
+    }
+       
+    .Noticia-home3{
+        display: grid;
+        grid-template-columns:50px 275px 50px  ;
+        grid-template-rows: 25px 125px 140px;
+        grid-column-gap: 7.5px;
+        grid-row-gap: 15px;
+    }
+    .Titulo-home3{
+        background-color: black;
+        color: white;
+        grid-column: 2/3;
+        font-size: 9px;
+        justify-self: center;
+        align-self: center;
+    }
+    .Imagen-home3{
+        background-image: url(../img/61dc48724eef4d7e2dc1be1c-oneinsidetwo1250x700.jfif);
+        width: 100%;
+        height: 125px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .Texto-home3{
+        grid-column: 2/3;
+        font-size: 5px;
+    }
+    
+    .Noticia-home4{
+        display: grid;
+        grid-template-columns:50px 275px 50px  ;
+        grid-template-rows: 25px 325px 38px;
+        grid-column-gap: 7.5px;
+        grid-row-gap: 15px;
+    }
+    .Titulo-home4{
+        background-color: black;
+        color: white;
+        grid-column: 2/3;
+        font-size: 9px;
+        justify-self: center;
+        align-self: center;
+    }
+    .Imagen-home4{
+        background-image: url(../img/61b6413b4cf43702c75d4f6a-2021-ferrari-abu-dhabi-grand-prix-race-report-gtw2.jfif);
+        width: auto;
+        height: 325px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .Texto-home4{
+        grid-column: 2/3;
+        font-size: 5px;
+        
+    }
+}
+
+@media (min-width:461px) and (max-width:576) {
+    
+.Noticia-home1{
     display: grid;
-    grid-template-areas: "Home Autos Tienda Universo Usuario";
-    gap: 5px;
-    justify-content: space-between;
-    max-height: 40px;
-}
-section div.imagenPadre .imagenFondo{
-    max-width: 384px;
+    grid-template-columns: 70px 370px 70px;
+    grid-template-rows: 35px 170px 240px;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    
 }
 
-section div.imagenPadre .imageFondo{
-    max-width: 384px;
+.Titulo-home1 {
+    background-color: black;
+    color: white;
+    grid-column: 2/3;
+    font-size: 11px;
+    justify-self: center;
+    align-self: center;
+
+
 }
-footer{
-    margin-top: 80px;
-    margin-left: 30px;
-    margin-right: 30px;
+.Imagen-home1{
+    background-image: url(../img/6a0a3abf-ec3e-47b7-9930-7b3e2ec892fb.jpg);
+    width: 100%;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
+.Texto-home1{
+    grid-column: 2/3;
+    font-size: 7px;
 }
 
 
+.Noticia-home2{
+    display: grid;
+    grid-template-columns:70px 370px 70px  ;
+    grid-template-rows: 35px 110px 150px;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+}
+.Titulo-home2{
+    background-color: black;
+    color: white;
+    grid-column: 2/3;
+    font-size: 11px;
+    justify-self: center;
+    align-self: center;
+}
+.Imagen-home2{
+    background-image:url(../img/Notiferrari.jpg);
+    width: 100%;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    
+}
+.Texto-home2{
+    grid-column: 2/3;
+    font-size: 7px;
+}
 
+.Noticia-home3{
+    display: grid;
+    grid-template-columns:70px 370px 70px  ;
+    grid-template-rows: 35px 170px 185px;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+}
+.Titulo-home3{
+    background-color: black;
+    color: white;
+    grid-column: 2/3;
+    font-size: 11px;
+    justify-self: center;
+    align-self: center;
+}
+.Imagen-home3{
+    background-image: url(../img/61dc48724eef4d7e2dc1be1c-oneinsidetwo1250x700.jfif);
+    width: 100%;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.Texto-home3{
+    grid-column: 2/3;
+    font-size: 7px;
+}
+
+.Noticia-home4{
+    display: grid;
+    grid-template-columns:70px 370px 70px  ;
+    grid-template-rows: 35px 440px 50px;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+}
+.Titulo-home4{
+    background-color: black;
+    color: white;
+    grid-column: 2/3;
+    font-size: 11px;
+    justify-self: center;
+    align-self: center;
+}
+.Imagen-home4{
+    background-image: url(../img/61b6413b4cf43702c75d4f6a-2021-ferrari-abu-dhabi-grand-prix-race-report-gtw2.jfif);
+    width: auto;
+    height: 440px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.Texto-home4{
+    grid-column: 2/3;
+    font-size: 7px;
+    
+}
+    
+}
 
 
 
@@ -524,9 +570,8 @@ footer{
 
 /* Css para PAGINA DE UNIVERSO.------------------ */
 
-#Universe {
 
-}
+
 
 /*  FINALIZA Css para PAGINA DE UNIVERSO.------------- */
 
@@ -545,205 +590,95 @@ footer{
 
 
 
+/* FOOTER                      */
 
-/* Css para HEADER universal ------------------------------------- */
 
-/* .flex-container {
-    background-color: white;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: flex-start;
-    position: sticky;
-    z-index: 999;
-    
+footer {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 35px 90px 90px;
+    gap: 5px;
+    color:black;
 }
-.flex-item {
-color: white;
-}
-
-.flex-container2 {
-background-color: white;
-display: flex;
-flex-flow: row wrap;
-justify-content: space-evenly;
-align-items: stretch;
-position: sticky;
-height: 100px;
-}
-
-.flex-item2 {
-color: black;
-} */
-
-.navegador {
-    border: 10px;
-    border-color: black;
-    background-color: white;
-    width: 100%;
-    height: 500px;
-    margin: 0;
-    width: 100%;
-    z-index: 999;
-    top: -5px;
-    
-  }
-
-.navegador ul li {
-    list-style: none;
-    overflow: hidden;
-}
-
-#Home { 
-    font-size: 30px;
-  color: black;
-  font-family: monospace;
-  position: relative;
-  text-decoration: none;
-  
-}
-#Autos {
-    font-size: 30px;
-   color: black;
-   
-   font-family: monospace;
-   text-decoration: none;
-   overflow: auto;
-   
-
-}
-/* .flex-item2:nth-child(2) {
-    color: white;
-    overflow: hidden;
-    font-size: 3px;
-} */
-
-#Tienda {
-    font-size: 30px;
-    color: black;
-   
-   font-family: monospace;
-   text-decoration: none;
-
-   
-}
-
-#Universo {
-    font-size: 30px;
-    color: black;
-   
-    font-family: monospace;
-    text-decoration: none;
+footer img.ig{
+    grid-column: 1/2;
+     justify-self: center;
+     align-self: top;
+     
+ }
+ div.grid_instagram{
+     grid-column: 1/2;
+     grid-row: 2/4;
+     display: flex;
+     flex-wrap: wrap;
+     flex-flow: column;
+     justify-content: center;
+     align-items: center;
+ }
  
-}
-
-#Usuario {
-    font-size: 30px;
-    color: black;
-  
-    font-family: monospace;
-    text-decoration: none;
-
  
-}
-  
-/* finaliza Css para HEADER universal------------------------- */
 
-
-
-
-
-
-
-/* pie de pagina para todos------------------------------------------------------*/
-#pie {
-    border: black;
-    background-color: whitesmoke;
+ footer img.fb{
+     grid-column: 2/3;
+     justify-self: center;
+     align-self: top;
+ }
+ div.grid_facebook{
+    grid-row: 2/4;
     display: flex;
-    flex-direction: row;
-    height: 25%;
-    margin: 10px 40px 0px 40px;
-    
+     flex-wrap: wrap;
+     flex-flow: column;
+     justify-content: center;
+     align-items: center;
+ }
+ footer img.in {
+     grid-column: 3/4;
+     grid-row: 1/2;
+     justify-self: center;
+     align-self: top;
+ }
+div.grid_linkedin{
+    grid-row: 2/4;
+    display: flex;
+     flex-wrap: wrap;
+     flex-flow: column;
+     justify-content: center;
+     align-items: center;
+}
+ footer img.tw{
+     grid-column: 4/5;
+     grid-row: 1/2;
+    justify-self: center;
+    align-self: top;
+ }
+ div.grid_twitter{
+    grid-row: 2/4;
+    display: flex;
+     flex-wrap: wrap;
+     flex-flow: column;
+     justify-content: center;
+     align-items: center;
+ }
+footer img.yt{
+    grid-column: 5/6;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: top;
+}
+div.grid_youtube{
+    grid-row: 2/4;
+    display: flex;
+     flex-wrap: wrap;
+     flex-flow: column;
+     justify-content: center;
+     align-items: center;
 }
 
-.foot{
-    text-decoration: none;
-    color: black;
-    display: inline;
-   
-}
-#fb{
-    display: inline;
-    color: white;
-    
-    
-}
-#facebook{
-    text-decoration: none;
-color: whitesmoke;
-background-color: whitesmoke;
-display: inline;
-inline-size: 250px;
-font-family: monospace;
-}
-
-
-#ig {
-    display: inline;
-    background-color: whitesmoke;
-}
-#instagram{
-text-decoration: none;
-color: whitesmoke;
-background-color: whitesmoke;
-display: inline;
-inline-size: 250px;
-font-family: monospace;
-}
+/* FOOTER           */
 
 
 
 
 
-#in {
-    display: inline;
-}
-#linkedin{
-    text-decoration: none;
-    color: black;
-    background-color: whitesmoke;
-    display: inline;
-    inline-size: 250px;
-    font-family: monospace;
-}
-
-
-#tw {
-    display: inline;
-}
-#twitter{
-    text-decoration: none;
-    color: whitesmoke;
-    background-color: whitesmoke;
-    display: inline;
-    inline-size: 250px;
-    font-family: monospace;
-}
-
-
-
-#yt {
-    display: inline;
-}
-#youtube {
-    text-decoration: none;
-    color: whitesmoke;
-    background-color: whitesmoke;
-    display: inline;
-    inline-size: 250px;
-    font-family: monospace;
-}
-
-/* FINALIZA FOOTER PARA TODOS.---------------------- */
 
 
