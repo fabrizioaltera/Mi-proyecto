@@ -1,0 +1,35 @@
+.Universo-home2 {
+    background-color: black;
+    display: grid;
+    grid-template-columns:300px 300px 300px 300px 400px;
+    grid-template-rows: 500px 500px;
+    gap: 20px
+;
+    .Tarjeta1{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .Tarjeta2{
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .Tarjeta3{
+        grid-column: 4/5;
+        grid-row: 1/2;
+    }
+    .Tarjeta4{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .Tarjeta5{
+        grid-column: 3/4;
+        grid-row: 2/3;
+
+    }
+    .Tarjeta6{
+        grid-column: 4/5;
+        grid-row: 2/3;
+    }
+}
+
+.Universo-home3
