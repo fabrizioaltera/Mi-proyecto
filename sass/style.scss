@@ -1,20 +1,66 @@
-.Universo-home1{
+
+
+@mixin Universo {
     margin-top: 25px;
+    margin-bottom: 25px;
     display: grid;
     grid-template-columns:200px 300px 300px 300px 200px ;
-    grid-template-rows: 500px ;
+    grid-template-rows: 600px ;
     gap: 20px;
-    .Tarjeta1{
-        grid-column: 2/3;
+}
+
+@mixin Universo2 {
+    padding: 25px;
+  margin-top: 25px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 200px 300px 300px 300px 200px;
+  grid-template-rows: 500px 500px;
+  gap: 20px;
+}
+
+@mixin Tarjeta1 {
+    grid-column: 2/3;
         grid-row: 1/2;
+}
+
+@mixin Tarjeta2 {
+    grid-column: 3/4;
+        grid-row: 1/2;
+}
+
+@mixin Tarjeta3 {
+    grid-column: 4/5;
+        grid-row: 1/2;
+}
+
+@mixin Tarjeta4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+@mixin Tarjeta5 {
+    grid-column: 3/4;
+        grid-row: 2/3;
+}
+
+@mixin Tarjeta6 {
+    grid-column: 4/5;
+        grid-row: 2/3;
+}
+
+
+.Universo-home1{
+    @include Universo
+
+    .Tarjeta1{
+        @include Tarjeta1
     }
     .Tarjeta2{
-        grid-column: 3/4;
-        grid-row: 1/2;
+        @include Tarjeta2
     }
     .Tarjeta3{
-        grid-column: 4/5;
-        grid-row: 1/2;
+        @include Tarjeta3
     }
 }
 
@@ -24,122 +70,81 @@
 
 
 .Universo-home2 {
-    padding: 25px;
-    margin-top:  25px ;
-    background-color: black;
-    display: grid;
-    grid-template-columns:200px 300px 300px 300px 200px;
-    grid-template-rows: 500px 500px;
-    gap: 20px;
+   @include Universo2
 
     .Tarjeta4{
-        grid-column: 2/3;
-        grid-row: 1/2;
+       @include Tarjeta1
     }
     .Tarjeta5{
-        grid-column: 3/4;
-        grid-row: 1/2;
+        @include Tarjeta2
     }
     .Tarjeta6{
-        grid-column: 4/5;
-        grid-row: 1/2;
-    }
+        @include Tarjeta3
+     }
     .Tarjeta7{
-        grid-column: 2/3;
-        grid-row: 2/3;
+        @include Tarjeta4
     }
     .Tarjeta8{
-        grid-column: 3/4;
-        grid-row: 2/3;
+        @include Tarjeta5
 
     }
     .Tarjeta9{
-        grid-column: 4/5;
-        grid-row: 2/3;
+        @include Tarjeta6
     }
 }
 
 .Universo-home3{
-    margin-top: 25px;
-    display: grid;
-    grid-template-columns:200px 300px 300px 300px 200px ;
-    grid-template-rows: 500px ;
-    gap: 20px;
+    @include Universo
 
     .Tarjeta10{
-     grid-column: 2/3;
-     grid-row: 1/2;
+     @include Tarjeta1
     }
     .Tarjeta11{
-        grid-column: 3/4;
-        grid-row: 1/2;
+        @include Tarjeta2
     }
     .Tarjeta12{
-        grid-column:4/5 ;
-        grid-row: 1/2;
+        @include Tarjeta3
     }
 }
 
 .Universo-home4{
-    margin-top: 25px;
-    display: grid;
-    grid-template-columns:200px 300px 300px 300px 200px ;
-    grid-template-rows: 500px ;
-    gap: 20px;
+    @include Universo
     
     .Tarjeta13{
-        grid-column: 2/3;
-     grid-row: 1/2;
+        @include Tarjeta1
     }
     .Tarjeta14{
-        grid-column: 3/4;
-        grid-row: 1/2;
+        @include Tarjeta2
     }
     .Tarjeta15{
-        grid-column:4/5 ;
-        grid-row: 1/2;
+        @include Tarjeta3
     }
 }
 
 .Universo-home5{
-    margin-top: 25px;
-    display: grid;
-    grid-template-columns:200px 300px 300px 300px 200px ;
-    grid-template-rows: 500px ;
-    gap: 20px;
+    @include Universo
 
     .Tarjeta16{
-        grid-column: 2/3;
-     grid-row: 1/2;
+        @include Tarjeta1
     }
     .Tarjeta17{
-        grid-column: 3/4;
-        grid-row: 1/2;
+        @include Tarjeta2
     }
     .Tarjeta18{
-        grid-column:4/5 ;
-        grid-row: 1/2;
+        @include Tarjeta3
     }
 }
 
 .Universo-home6{
-    margin-top: 25px;
-    margin-bottom: 25px;
-    display: grid;
-    grid-template-columns:200px 300px 300px 300px 200px ;
-    grid-template-rows: 500px ;
-    gap: 20px;
+    @include Universo
 
     .Tarjeta19{
-        grid-column: 2/3;
-     grid-row: 1/2;
+        @include Tarjeta1
     }
     .Tarjeta20{
-        grid-column: 3/4;
-        grid-row: 1/2;
+        @include Tarjeta2
     }
     .Tarjeta21{
-        grid-column:4/5 ;
-        grid-row: 1/2;
+        @include Tarjeta3
     }
 }
