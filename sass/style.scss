@@ -1,10 +1,9 @@
-.Universo-home2 {
-    background-color: black;
+.Universo-home1{
+    margin-top: 25px;
     display: grid;
-    grid-template-columns:300px 300px 300px 300px 400px;
-    grid-template-rows: 500px 500px;
-    gap: 20px
-;
+    grid-template-columns:200px 300px 300px 300px 200px ;
+    grid-template-rows: 500px ;
+    gap: 20px;
     .Tarjeta1{
         grid-column: 2/3;
         grid-row: 1/2;
@@ -17,19 +16,130 @@
         grid-column: 4/5;
         grid-row: 1/2;
     }
+}
+
+
+
+
+
+
+.Universo-home2 {
+    padding: 25px;
+    margin-top:  25px ;
+    background-color: black;
+    display: grid;
+    grid-template-columns:200px 300px 300px 300px 200px;
+    grid-template-rows: 500px 500px;
+    gap: 20px;
+
     .Tarjeta4{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .Tarjeta5{
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .Tarjeta6{
+        grid-column: 4/5;
+        grid-row: 1/2;
+    }
+    .Tarjeta7{
         grid-column: 2/3;
         grid-row: 2/3;
     }
-    .Tarjeta5{
+    .Tarjeta8{
         grid-column: 3/4;
         grid-row: 2/3;
 
     }
-    .Tarjeta6{
+    .Tarjeta9{
         grid-column: 4/5;
         grid-row: 2/3;
     }
 }
 
-.Universo-home3
+.Universo-home3{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns:200px 300px 300px 300px 200px ;
+    grid-template-rows: 500px ;
+    gap: 20px;
+
+    .Tarjeta10{
+     grid-column: 2/3;
+     grid-row: 1/2;
+    }
+    .Tarjeta11{
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .Tarjeta12{
+        grid-column:4/5 ;
+        grid-row: 1/2;
+    }
+}
+
+.Universo-home4{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns:200px 300px 300px 300px 200px ;
+    grid-template-rows: 500px ;
+    gap: 20px;
+    
+    .Tarjeta13{
+        grid-column: 2/3;
+     grid-row: 1/2;
+    }
+    .Tarjeta14{
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .Tarjeta15{
+        grid-column:4/5 ;
+        grid-row: 1/2;
+    }
+}
+
+.Universo-home5{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns:200px 300px 300px 300px 200px ;
+    grid-template-rows: 500px ;
+    gap: 20px;
+
+    .Tarjeta16{
+        grid-column: 2/3;
+     grid-row: 1/2;
+    }
+    .Tarjeta17{
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .Tarjeta18{
+        grid-column:4/5 ;
+        grid-row: 1/2;
+    }
+}
+
+.Universo-home6{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-columns:200px 300px 300px 300px 200px ;
+    grid-template-rows: 500px ;
+    gap: 20px;
+
+    .Tarjeta19{
+        grid-column: 2/3;
+     grid-row: 1/2;
+    }
+    .Tarjeta20{
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .Tarjeta21{
+        grid-column:4/5 ;
+        grid-row: 1/2;
+    }
+}
