@@ -8,94 +8,70 @@
     <title>Usuario</title>
     <link rel="shortcut icon" href="../img/icono1.jfif">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../sass/style.css">
 </head>
 <body>
 
-    <header> 
-
-        <nav class="navegador">
-               <div class="flex-container"> 
-                           <div class="flex-item">
-                                      <a class="iconoHome" href="../index.html" target="_blank"><img src="../img/icono.ico" alt="Ferrari" ></a>
-                           </div>
-  
-                           <div class="flex-item">
-                             Search
-                          </div>
-  
-  
-                </div>   
-       
-       
-       <div class="flex-container2">
-           <ul class="flex-item2">
-                   <li>
-                      
-                        <a id="Home" href="../index.html">Home</a>
-                   </li>
-           </ul>
-      
-          <ul class="flex-item2">
-                  <li>
-                        <a id="Autos" href="./autos.html">Autos</a>
-                        <ul>
-                            <li>
-                                812 Superfast
-                            </li>
-                            <li>
-                                812 GTS
-                            </li>
-                            <li>
-                                296 GTB
-                            </li>
-                            <li>
-                                SF90 Stradale
-                            </li>
-                            <li>
-                                F8 Tributo
-                            </li>
-                            <li>
-                                F8 Spider
-                            </li>
-                            <li>
-                                Roma
-                            </li>
-                            <li>
-                                Portofino M
-                            </li>
-                        </ul>
+    <nav class="navbar-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="../img/icono1.jfif" alt="" width="auto" height="24" class="d-inline-block align-text-top">
+            Ferrari
+          </a>
+        </div>
+      </nav>
+    
+    
+    
+    
+        <nav class="navbar-sm navbar-md navbar-lg navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./Usuario.html">Usuario</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " href="../index.html">Home</a>
+                      </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Autos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="./autos.html">812 Superfast</a></li>
+                      <li><a class="dropdown-item" href="./autos.html">812 GTS</a></li>
+                      <li><a class="dropdown-item" href="./autos.html">296 GTB </a></li>
+                      <li><a class="dropdown-item" href="./autos.html">SF90 Stradale</a></li>
+                      <li><a class="dropdown-item" href="./autos.html">SF90 Spider</a></li>
+                      <li><a class="dropdown-item" href="./autos.html">F8 Tributo</a></li>
+                      <li><a class="dropdown-item" href="./autos.html">F8 Spider</a></li>
+                      <li><a class="dropdown-item" href="./autos.html">Roma</a></li>
+                      <li><a class="dropdown-item" href="./autos.html">Portofino</a></li>
+                    </ul>
+                  </li> 
+    
+    
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="./tienda.html">Tienda</a>
                   </li>
-          </ul>    
-             
-          <ul class="flex-item2">
-              <li>
-                    <a id="Tienda" href="./tienda.html">Tienda</a>
-             </li>
-          </ul>
-  
-          <ul class="flex-item2">
-             <li>
-                       <a id="Universo" href="./universo.html">Universo</a>
-             </li>
-          </ul>
-  
-          <ul class="flex-item2">
-             <li>
-                      <a id="Usuario" href="./Usuario.html">Usuario</a>
-             </li>
-          
-         </ul>
-  
-       </div>
-    </nav>
-     
-    </header>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./universo.html">Universo</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+    
 
 
 
 
 
-<br><br><br>
+
 
 
 
@@ -105,42 +81,56 @@
 
 
 
-<fieldset id="Formulario">
+<fieldset >
 	<form action="" method="get" enctype="text/plain">
 
+    <div class="Formulario">
+      <div class="Nombre-usuario">
 		<label for="name">Nombre</label>
 		<input type="text" id="name" placeholder="Ingrese su Nombre" required>
-		<br> <br>
-		<label for="last name">Apellido</label>
-		<input type="text" id="last name" placeholder="Ingrese su Apellido" required>
-		<br><br>
+    </div>
+
+    <div class="Apellido-usuario">
+		      <label for="last name">Apellido</label>
+		       <input type="text" id="last name" placeholder="Ingrese su Apellido" required>
+   </div>
+
+        <div class="Dni-usuario">
 		<label for="dni">DNI</label>
 		<input type="text" id="dni" placeholder="Documento Nacional de Identidad" required>
-		<br><br>
+		</div>
+
+        <div class="Email-usuario">
 		<label for="email">Email</label>
 		<input type="text" id="Email" placeholder="Ingrese su Email" required>
-		<br><br>
+		</div>
+
+        <div class="Email2-usuario">
 		<label for="email2">Reingrese su email</label>
 		<input type="text" id="email2" placeholder="Reingrese su Email" required>
-		<br><br>
+		</div>
+         
+        <div class="Telefono-usuario">
 		<label for="number">Telefono</label>
 		<select name="number" id="number">
-    <option value="Argentina">+54</option>
-<option value="bolivia">+591</option>
-<option value="brasil">+55</option>
-<option value="chile">+56</option>
-<option value="colombia">+57</option>
-<option value="ecuador">+593</option>
-<option value="guyana">+592</option>
-<option value="guyana francesa">+594</option>
-<option value="paraguay">+595</option>
-<option value="peru">+51</option>
-<option value="surinam">+597</option>
+    <option value="Argentina">+54 (Arg)</option>
+<option value="bolivia">+591 (Bol)</option>
+<option value="brasil">+55 (Br)</option>
+<option value="chile">+56 (Chil)</option>
+<option value="colombia">+57 (Col)</option>
+<option value="ecuador">+593 (Ecu)</option>
+<option value="guyana">+592 (Guy)</option>
+<option value="guyana francesa">+594 (GuyFr)</option>
+<option value="paraguay">+595 (Par)</option>
+<option value="peru">+51 (Per)</option>
+<option value="surinam">+597 (Sur)</option>
 <option value="uruguay">+598 (Ur)</option>
 <option value="venezuela">+598 (Ven)</option>
 </select>
 		<input type="text" id="number" placeholder="Ingrese su número de movil" required>
-		<br><br>
+    </div>
+		 
+    <div class="Fecha-usuario">
 		<label for="birthday">Fecha de nacimiento</label>
 		<select name="day" id="day">
 <option value="1">1</option>
@@ -304,14 +294,17 @@
     <option value="">1912</option>
     <option value="">1911</option>
 </select>
-		<br><br>
+</div>
+<div class="Contraseña-usuario">
 		<label for="pass">Contraseña</label>
 		<input type="password" id="pass" placeholder="Ingrese una contraseña" required>
-		<br><br>
+    </div>
+<div class="Comentarios-usuario">
 		<label for="comentario">Comentarios</label> <br>
 		<textarea name="comentario" id="comentario" cols="30" rows="5"></textarea>
-		<br><br>
-
+	</div>
+    
+    <div class="Sexo-usuario">
 		<ul>
 			<li>
 				Sexo
@@ -322,8 +315,9 @@
 		<br>
 		<label for="">Mujer</label>
 		<input type="radio" name="Sexo" value="Mujer">
-		<br><br>
-
+    </div>
+      
+     <div class="Terminos-usuario">
 		<ul>
 			<li>
 				Terminos y condiciones
@@ -331,11 +325,12 @@
 		</ul>
 		<label for="">Acepto</label>
 		<input type="radio" name="terminos y condiciones" value="Acepto" required>
-		<br>
+		
 		<label for="">No acepto</label>
 		<input type="radio" name="terminos y condiciones" value="No acepto">
-		<br><br>
+    </div>
 
+    <div class="Pais-usuario">
 		<label for="paises">Elegir su pais</label>
 		<select name="paises" id="paises">
 <option value="arg" selected>Argentina</option>
@@ -352,7 +347,7 @@
 <option value="uru">Uruguay</option>
 <option value="vn">Venezuela</option>
 </select>
-		<br><br>
+</div>
 
 
 
@@ -362,11 +357,14 @@
 
 
 
-
+<div class="Botones-usuario">
 		<input type="submit" value="Enviar ahora">
 		<input type="reset" value="Borrar todo">
 		<input type="button" value="Para JS">
-
+    </div>
+ 
+  </div>
+  
 	</form>
 
 </fieldset>
@@ -381,7 +379,7 @@
 
 
 
-<footer>
+<!-- <footer>
     
     <img class="ig" src="../img/ig.png" alt="instagram" width="30" height="auto" >
 
@@ -436,7 +434,7 @@
  <a  href="https://www.youtube.com/user/ferrariworld" target="_blank">Ferrari</a>
 </div>
 
-</footer>
+</footer> -->
     
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

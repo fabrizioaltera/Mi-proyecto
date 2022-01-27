@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/* Pagina Universo */
 .Universo-home1 {
   margin-top: 25px;
   margin-bottom: 25px;
@@ -258,5 +260,149 @@
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1/2;
+}
+
+/* Pagina de Usuario */
+.Formulario {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 300px 300px 300px 300px 300px;
+      grid-template-columns: 300px 300px 300px 300px 300px;
+  -ms-grid-rows: 100px 100px 100px 100px 100px 100px 100px 100px 200px 100px 100px 100px 100px;
+      grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 200px 100px 100px 100px 100px;
+  gap: 3px;
+  color: white;
+}
+
+.Formulario .Nombre-usuario {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  background-color: darkblue;
+}
+
+.Formulario .Apellido-usuario {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  background-color: darkblue;
+}
+
+.Formulario .Dni-usuario {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  background-color: darkblue;
+}
+
+.Formulario .Email-usuario {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4/5;
+  background-color: darkblue;
+}
+
+.Formulario .Email2-usuario {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  grid-row: 5/6;
+  background-color: darkblue;
+}
+
+.Formulario .Telefono-usuario {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
+  grid-row: 6/7;
+  background-color: darkblue;
+}
+
+.Formulario .Fecha-usuario {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 1;
+  grid-row: 7/8;
+  background-color: darkblue;
+}
+
+.Formulario .Contraseña-usuario {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+  -ms-grid-row: 8;
+  -ms-grid-row-span: 1;
+  grid-row: 8/9;
+  background-color: darkblue;
+}
+
+.Formulario .Comentarios-usuario {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+  -ms-grid-row: 9;
+  -ms-grid-row-span: 1;
+  grid-row: 9/10;
+  background-color: darkblue;
+}
+
+.Formulario .Sexo-usuario {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+  -ms-grid-row: 10;
+  -ms-grid-row-span: 1;
+  grid-row: 10/11;
+  background-color: darkblue;
+}
+
+.Formulario .Terminos-usuario {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+  -ms-grid-row: 11;
+  -ms-grid-row-span: 1;
+  grid-row: 11/12;
+  background-color: darkblue;
+}
+
+.Formulario .Pais-usuario {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+  -ms-grid-row: 12;
+  -ms-grid-row-span: 1;
+  grid-row: 12/13;
+  background-color: darkblue;
+}
+
+.Formulario .Botones-usuario {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+  -ms-grid-row: 13;
+  -ms-grid-row-span: 1;
+  grid-row: 13/14;
+  background-color: darkblue;
 }
 /*# sourceMappingURL=style.css.map */
