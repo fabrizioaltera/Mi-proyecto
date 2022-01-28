@@ -1,3 +1,7 @@
+*{
+    text-decoration: none;
+}
+
 /* Pagina Index */
 
 .Titulo-home{
@@ -20,6 +24,7 @@
        
     }
 }
+
 
 .Noticia-home1{
     display: grid;
@@ -439,6 +444,7 @@
     grid-column:2/3 ;
     grid-row: 1/2;
     background-color:#212529 ;
+    padding: 20px 0px;
 
     .ig{
         grid-column: 1/2;
@@ -455,6 +461,7 @@
         justify-content: center;
         align-items: center;
         text-decoration: none;
+        color: white;
     }
     .fb{
         grid-column: 2/3;
@@ -469,6 +476,7 @@
          justify-content: center;
          align-items: center;
         text-decoration: none;
+        color: white;
      
     }
     .in{
@@ -484,6 +492,8 @@
          flex-flow: column;
          justify-content: center;
          align-items: center;
+         text-decoration: none;
+         color: white;
     }
     .tw{
         grid-column: 4/5;
@@ -498,6 +508,8 @@
          flex-flow: column;
          justify-content: center;
          align-items: center;
+         text-decoration: none;
+         color: white;
     }
     .yt{
         grid-column: 5/6;
@@ -512,6 +524,8 @@
          flex-flow: column;
          justify-content: center;
          align-items: center;
+         text-decoration-line: none;
+         color: white;
     }
 }
 

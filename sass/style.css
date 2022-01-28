@@ -1,4 +1,8 @@
 @charset "UTF-8";
+* {
+  text-decoration: none;
+}
+
 /* Pagina Index */
 .Titulo-home {
   display: -ms-grid;
@@ -665,6 +669,7 @@
   -ms-grid-row-span: 1;
   grid-row: 1/2;
   background-color: #212529;
+  padding: 20px 0px;
 }
 
 .Footer-ferrari .Footer .ig {
@@ -701,6 +706,7 @@
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
+  color: white;
 }
 
 .Footer-ferrari .Footer .fb {
@@ -734,6 +740,7 @@
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
+  color: white;
 }
 
 .Footer-ferrari .Footer .in {
@@ -769,6 +776,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-decoration: none;
+  color: white;
 }
 
 .Footer-ferrari .Footer .tw {
@@ -804,6 +813,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-decoration: none;
+  color: white;
 }
 
 .Footer-ferrari .Footer .yt {
@@ -839,5 +850,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
