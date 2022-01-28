@@ -25,18 +25,24 @@
     }
 }
 
+.Background-color-carrousel{
+    background-color: #212529;
+}
 
 .Noticia-home1{
     display: grid;
-    grid-template-columns: 200px 1100px 200px;
-    grid-template-rows: 100px 500px 700px;
+    grid-template-columns: 200px 550px 550px 200px;
+    grid-template-rows: 100px 400px;
     grid-column-gap: 30px;
     grid-row-gap: 60px;
+    border: solid 5px #212529;
+    background-color: #212529;
+    padding-bottom: 40px;
 
     .Titulo-home1{
-        background-color: #212529;
+        /* background-color: #212529; */
         color: white;
-        grid-column: 2/3;
+        grid-column: 2/4;
         font-size: 35px;
         justify-self: center;
         align-self: center;
@@ -48,34 +54,41 @@
         height: 500px;
         background-repeat: no-repeat;
         background-size: 100%;
-        grid-column: 2/3;
+        grid-column: 3/4;
         grid-row: 2/3;
     }
 
     .Texto-home1{
         grid-column: 2/3;
-        font-size: 19px;
-        background-color: #212529;
+        grid-row:2/3 ;
+        font-size: 13px;
+        /* background-color: #212529; */
         color: white;
-        padding: 15px;
+        padding: 25px;
+        overflow: auto;
+        scrollbar-gutter: auto;
+        height: 400px;
     }
 }
 
 .Noticia-home2{
     display: grid;
-    grid-template-columns:200px 1100px 200px  ;
-    grid-template-rows: 100px 325px 440px;
+    grid-template-columns:200px 550px 550px 200px  ;
+    grid-template-rows: 100px 300px;
     grid-column-gap: 30px;
     grid-row-gap: 60px;
-    margin-top: 60px;
+    margin-top: 0px;
+    background-color: #212529;
+    padding-bottom: 40px;
 
     .Titulo-home2{
         background-color: #212529;
         color: white;
-        grid-column: 2/3;
+        grid-column: 2/4;
         font-size: 35px;
         justify-self: center;
         align-self: center;
+        margin-top: 5px;
     }
 
     .Imagen-home2{
@@ -86,28 +99,38 @@
         background-size: 100%;
         grid-column: 2/3;
         grid-row: 2/3; 
+        
+        
     }
 
     .Texto-home2{
-        grid-column: 2/3;
-        font-size: 19px;
+        grid-column: 3/4;
+        grid-row: 2/3;
+        font-size: 13px;
         background-color: #212529;
         color: white;
-        padding: 15px;
+        padding: 25px;
+        overflow: auto;
+        
     }
 }
 
 .Noticia-home3{
     display: grid;
-    grid-template-columns:200px 1100px 200px  ;
-    grid-template-rows: 100px 500px 550px;
+    grid-template-columns:200px 550px 550px 200px  ;
+    grid-template-rows: 100px 350px;
     grid-column-gap: 30px;
     grid-row-gap: 60px;
+    padding-bottom: 40px;
+    background-color: #212529;
+     
+      
 
+     
     .Titulo-home3{
         background-color: #212529;
         color: white;
-        grid-column: 2/3;
+        grid-column: 2/4;
         font-size: 35px;
         justify-self: center;
         align-self: center;
@@ -119,30 +142,34 @@
         height: 500px;
         background-repeat: no-repeat;
         background-size: 100%;
-        grid-column: 2/3;
+        grid-column: 3/4;
         grid-row: 2/3;
     }
 
     .Texto-home3{
         grid-column: 2/3;
-        font-size: 19px;
+        grid-row: 2/3;
+        font-size: 13px;
         background-color: #212529;
         color: white;
-        padding: 15px;
+        padding: 25px;
+        overflow: auto;
     }
+  
 }
 
 .Noticia-home4{
     display: grid;
-    grid-template-columns:200px 1100px 200px  ;
-    grid-template-rows: 100px 1300px 150px;
-    grid-column-gap: 30px;
-    grid-row-gap: 60px;
+    grid-template-columns:200px 550px 550px 200px  ;
+    grid-template-rows: 100px 400px;
+    gap: 30px;
+    padding-bottom: 40px;
+    background-color: #212529;
 
     .Titulo-home4{
         background-color: #212529;
         color: white;
-        grid-column: 2/3;
+        grid-column: 2/4;
         font-size: 35px;
         justify-self: center;
         align-self: center;
@@ -151,7 +178,7 @@
     .Imagen-home4{
         background-image: url(../img/61b6413b4cf43702c75d4f6a-2021-ferrari-abu-dhabi-grand-prix-race-report-gtw2.jfif);
         width: auto;
-        height: 1300px;
+        height: 400px;
         background-repeat: no-repeat;
         background-size: 100%;
         grid-column: 2/3;
@@ -159,20 +186,274 @@
     }
 
     .Texto-home4{
-        grid-column: 2/3;
-        font-size: 19px;
-        grid-column: 2/3;
-        font-size: 19px;
+        grid-column: 3/4;
+        grid-row: 2/3;
+        font-size: 13px;
         background-color: #212529;
         color: white;
-        padding: 15px;
+        padding: 25px;
+        overflow: auto;
+        height: 280px;
+        
     }
     
 }
 
 
+/* Pagina Autos */
 
+.Autos-home1{
+    display: grid;
+    grid-template-columns:200px 550px 550px 200px ;
+    grid-template-rows: 100px 200px 200px;
+    gap: 25px;
+    background-color: #212529;
+    margin-top: 0px;
+    padding-top: 50px;
+    
 
+    .Logo-home1{
+       background-image: url(../imgautos/ferrari-812-superfast-logo.png);
+       background-repeat: no-repeat;
+       background-size: 100%;
+       grid-row: 1/2;
+       grid-column:2/3 ;
+    }
+    .Auto-home1{
+        background-image: url(../imgautos/812superfast.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height:550px;
+        width: auto;
+        grid-row: 1/4;
+        grid-column:3/4 ;
+    }
+    .Texto-autos1{
+        grid-column:2/3 ;
+        grid-row: 2/4;
+        color: white;
+        font-size: 13px;
+        
+    }
+}
+
+.Autos-home2{
+    display: grid;
+    grid-template-columns:200px 550px 550px 200px ;
+    grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+    .Logo-home2{
+        background-image: url(../imgautos/812-gts@logo.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        grid-row: 1/2;
+        grid-column:3/4 ;
+    }
+    .Auto-home2{
+        background-image: url(../imgautos/ferrari-812-gts-la-spider-con-motor-v12-vuelve-despues-de-50-anos-778487.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        grid-row: 1/4;
+        grid-column: 2/3;
+    }
+    .Texto-autos2{
+        grid-column: 3/4 ;
+        grid-row: 2/4;
+        color: white;
+
+    }
+}
+
+.Autos-home3{
+    display: grid;
+    grid-template-columns:200px 550px 550px 200px ;
+    grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+    .Logo-home3{
+        background-image: url(../imgautos/296gtbç.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        grid-row: 1/2;
+       grid-column:2/3 ;
+    }
+    .Auto-home3{
+        background-image: url(../imgautos/Ferrari-296-GTB-2022-1-1130x636.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        grid-row: 1/4;
+        grid-column:3/4 ;
+    }
+    .Texto-autos3{
+        grid-column:2/3 ;
+        grid-row: 2/4;
+        color: white;
+    }
+}
+
+.Autos-home4{
+    display: grid;
+    grid-template-columns:200px 550px 550px 200px ;
+    grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+    .Logo-home4{
+        background-image: url(../imgautos/ferrari-sf90-stradale-logo-line-up.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        grid-row: 1/2;
+        grid-column:3/4 ;
+    }
+    .Auto-home4{
+        background-image: url(../imgautos/sf90.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        grid-row: 1/4;
+        grid-column: 2/3;
+    }
+    .Texto-autos4{
+        grid-column: 3/4 ;
+        grid-row: 2/4;
+        color: white;
+    }
+}
+
+.Autos-home5{
+    display: grid;
+    grid-template-columns:200px 550px 550px 200px ;
+    grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+    .Logo-home5{
+        background-image: url(../imgautos/sf90spider.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        grid-row: 1/2;
+       grid-column:2/3 ;
+    }
+    .Auto-home5{
+        background-image: url(../imgautos/sf90spider.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        grid-row: 1/4;
+        grid-column:3/4 ;
+    }
+    .Texto-autos5{
+        grid-column:2/3 ;
+        grid-row: 2/4;
+        color: white;
+    }
+}
+
+.Autos-home6{
+    display: grid;
+    grid-template-columns:200px 550px 550px 200px ;
+    grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+    .Logo-home6{
+        background-image: url(../imgautos/ferrari-f8-tributologo-2-line-up.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        grid-row: 1/2;
+        grid-column:3/4 ;
+    }
+    .Auto-home6{
+        background-image: url(../imgautos/ferrari-f8-tributo-2019-05_1920x1600c.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        grid-row: 1/4;
+        grid-column: 2/3;
+    }
+    .Texto-autos6{
+        grid-column: 3/4 ;
+        grid-row: 2/4;
+        color: white;
+    }
+}
+
+.Autos-home7{
+    display: grid;
+    grid-template-columns:200px 550px 550px 200px ;
+    grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+    .Logo-home7{
+        background-image: url(../imgautos/ferrari-f8-spider-logo-2-line-up.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        grid-row: 1/2;
+        grid-column:2/3 ;
+    }
+    .Auto-home7{
+        background-image: url(../imgautos/ferrari-f8-spider-ferrari-f8-tributo_02_1440x655c.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        grid-row: 1/4;
+        grid-column:3/4 ;
+    }
+    .Texto-autos7{
+        grid-column:2/3 ;
+        grid-row: 2/4;
+        color: white;
+    }
+}
+
+.Autos-home8{
+    display: grid;
+    grid-template-columns:200px 550px 550px 200px ;
+    grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+    .Logo-home8{
+        background-image: url(../imgautos/ferrari-roma-logo-new-line-up.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        grid-row: 1/2;
+        grid-column:3/4 ;
+    }
+    .Auto-home8{
+        background-image: url(../imgautos/romaferrari1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        grid-row: 1/4;
+        grid-column: 2/3;
+    }
+    .Texto-autos8{
+        grid-column: 3/4 ;
+        grid-row: 2/4;
+        color: white;
+    }
+}
+
+.Autos-home9{
+    display: grid;
+    grid-template-columns:200px 550px 550px 200px ;
+    grid-template-rows: 100px 200px 200px;
+    gap: 25px;
+    background-color: #212529;
+    margin-bottom: -40px;
+    .Logo-home9{
+        background-image: url(../imgautos/portofinologo.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        grid-row: 1/2;
+       grid-column:2/3 ;
+    }
+    .Auto-home9{
+        background-image: url(../imgautos/portofinom.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        grid-row: 1/4;
+        grid-column:3/4 ;
+    }
+    .Texto-autos9{
+        grid-column:2/3 ;
+        grid-row: 2/4;
+        color: white;
+    }
+}
 /* Pagina Universo */
 
 
@@ -180,18 +461,20 @@
 
 
 @mixin Universo {
-    margin-top: 25px;
-    margin-bottom: 25px;
+    /* margin-top: 25px;
+    margin-bottom: 25px; */
     display: grid;
     grid-template-columns:200px 300px 300px 300px 200px ;
     grid-template-rows: 600px ;
     gap: 20px;
+    background-color: #212529;
+    padding: 50px;
 }
 
 @mixin Universo2 {
-   padding: 25px;
-   margin-top: 25px;
-   background-color: black;
+   padding: 50px;
+   /* margin-top: 25px; */
+   background-color: #212529;
    display: grid;
    grid-template-columns: 200px 300px 300px 300px 200px;
    grid-template-rows: 500px 500px;
@@ -433,7 +716,8 @@
     grid-template-columns: 220px 1100px 200px;
     grid-row: 500px;
     gap: 10px;
-    margin-top: 30px;
+    
+    background-color: #212529;
 
 .Footer {
     display: grid;
