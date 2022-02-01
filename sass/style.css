@@ -262,6 +262,10 @@
   height: 280px;
 }
 
+body {
+  background-color: #212529;
+}
+
 /* Media queries Index */
 @media (min-width: 320px) and (max-width: 479px) {
   .Noticia-home1 {
@@ -1757,6 +1761,1898 @@
   -ms-grid-row-span: 2;
   grid-row: 2/4;
   color: white;
+}
+
+/* Media queries Autos */
+@media (min-width: 320px) and (max-width: 479px) {
+  .Autos-home1 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30px 130px 130px 30px;
+        grid-template-columns: 30px 130px 130px 30px;
+    -ms-grid-rows: 100px 200px 100px;
+        grid-template-rows: 100px 200px 100px;
+    gap: 5px;
+    background-color: #212529;
+    margin-top: 0px;
+    padding-top: 50px;
+  }
+  .Autos-home1 .Logo-home1 {
+    background-image: url(../imgautos/ferrari-812-superfast-logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home1 .Auto-home1 {
+    background-image: url(../imgautos/812superfast.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 550px;
+    width: auto;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home1 .Texto-autos1 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+    font-size: 6px;
+    overflow: scroll;
+  }
+  .Autos-home2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home2 .Logo-home2 {
+    background-image: url(../imgautos/812-gts@logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home2 .Auto-home2 {
+    background-image: url(../imgautos/ferrari-812-gts-la-spider-con-motor-v12-vuelve-despues-de-50-anos-778487.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home2 .Texto-autos2 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home3 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home3 .Logo-home3 {
+    background-image: url(../imgautos/296gtbç.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home3 .Auto-home3 {
+    background-image: url(../imgautos/Ferrari-296-GTB-2022-1-1130x636.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home3 .Texto-autos3 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home4 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home4 .Logo-home4 {
+    background-image: url(../imgautos/ferrari-sf90-stradale-logo-line-up.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home4 .Auto-home4 {
+    background-image: url(../imgautos/sf90.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home4 .Texto-autos4 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home5 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home5 .Logo-home5 {
+    background-image: url(../imgautos/sf90spider.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home5 .Auto-home5 {
+    background-image: url(../imgautos/sf90spider.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home5 .Texto-autos5 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home6 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home6 .Logo-home6 {
+    background-image: url(../imgautos/ferrari-f8-tributologo-2-line-up.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home6 .Auto-home6 {
+    background-image: url(../imgautos/ferrari-f8-tributo-2019-05_1920x1600c.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home6 .Texto-autos6 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home7 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home7 .Logo-home7 {
+    background-image: url(../imgautos/ferrari-f8-spider-logo-2-line-up.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home7 .Auto-home7 {
+    background-image: url(../imgautos/ferrari-f8-spider-ferrari-f8-tributo_02_1440x655c.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home7 .Texto-autos7 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home8 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home8 .Logo-home8 {
+    background-image: url(../imgautos/ferrari-roma-logo-new-line-up.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home8 .Auto-home8 {
+    background-image: url(../imgautos/romaferrari1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home8 .Texto-autos8 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home9 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 200px;
+        grid-template-rows: 100px 200px 200px;
+    gap: 25px;
+    background-color: #212529;
+    margin-bottom: -40px;
+  }
+  .Autos-home9 .Logo-home9 {
+    background-image: url(../imgautos/portofinologo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home9 .Auto-home9 {
+    background-image: url(../imgautos/portofinom.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home9 .Texto-autos9 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 599px) {
+  .Autos-home1 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 200px;
+        grid-template-rows: 100px 200px 200px;
+    gap: 25px;
+    background-color: #212529;
+    margin-top: 0px;
+    padding-top: 50px;
+  }
+  .Autos-home1 .Logo-home1 {
+    background-image: url(../imgautos/ferrari-812-superfast-logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home1 .Auto-home1 {
+    background-image: url(../imgautos/812superfast.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 550px;
+    width: auto;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home1 .Texto-autos1 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+    font-size: 13px;
+  }
+  .Autos-home2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home2 .Logo-home2 {
+    background-image: url(../imgautos/812-gts@logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home2 .Auto-home2 {
+    background-image: url(../imgautos/ferrari-812-gts-la-spider-con-motor-v12-vuelve-despues-de-50-anos-778487.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home2 .Texto-autos2 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home3 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home3 .Logo-home3 {
+    background-image: url(../imgautos/296gtbç.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home3 .Auto-home3 {
+    background-image: url(../imgautos/Ferrari-296-GTB-2022-1-1130x636.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home3 .Texto-autos3 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home4 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home4 .Logo-home4 {
+    background-image: url(../imgautos/ferrari-sf90-stradale-logo-line-up.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home4 .Auto-home4 {
+    background-image: url(../imgautos/sf90.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home4 .Texto-autos4 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home5 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home5 .Logo-home5 {
+    background-image: url(../imgautos/sf90spider.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home5 .Auto-home5 {
+    background-image: url(../imgautos/sf90spider.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home5 .Texto-autos5 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home6 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home6 .Logo-home6 {
+    background-image: url(../imgautos/ferrari-f8-tributologo-2-line-up.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home6 .Auto-home6 {
+    background-image: url(../imgautos/ferrari-f8-tributo-2019-05_1920x1600c.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home6 .Texto-autos6 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home7 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home7 .Logo-home7 {
+    background-image: url(../imgautos/ferrari-f8-spider-logo-2-line-up.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home7 .Auto-home7 {
+    background-image: url(../imgautos/ferrari-f8-spider-ferrari-f8-tributo_02_1440x655c.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home7 .Texto-autos7 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home8 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home8 .Logo-home8 {
+    background-image: url(../imgautos/ferrari-roma-logo-new-line-up.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home8 .Auto-home8 {
+    background-image: url(../imgautos/romaferrari1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home8 .Texto-autos8 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home9 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 200px;
+        grid-template-rows: 100px 200px 200px;
+    gap: 25px;
+    background-color: #212529;
+    margin-bottom: -40px;
+  }
+  .Autos-home9 .Logo-home9 {
+    background-image: url(../imgautos/portofinologo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home9 .Auto-home9 {
+    background-image: url(../imgautos/portofinom.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home9 .Texto-autos9 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 799px) {
+  .Autos-home1 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 200px;
+        grid-template-rows: 100px 200px 200px;
+    gap: 25px;
+    background-color: #212529;
+    margin-top: 0px;
+    padding-top: 50px;
+  }
+  .Autos-home1 .Logo-home1 {
+    background-image: url(../imgautos/ferrari-812-superfast-logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home1 .Auto-home1 {
+    background-image: url(../imgautos/812superfast.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 550px;
+    width: auto;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home1 .Texto-autos1 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+    font-size: 13px;
+  }
+  .Autos-home2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home2 .Logo-home2 {
+    background-image: url(../imgautos/812-gts@logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home2 .Auto-home2 {
+    background-image: url(../imgautos/ferrari-812-gts-la-spider-con-motor-v12-vuelve-despues-de-50-anos-778487.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home2 .Texto-autos2 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home3 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home3 .Logo-home3 {
+    background-image: url(../imgautos/296gtbç.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home3 .Auto-home3 {
+    background-image: url(../imgautos/Ferrari-296-GTB-2022-1-1130x636.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home3 .Texto-autos3 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home4 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home4 .Logo-home4 {
+    background-image: url(../imgautos/ferrari-sf90-stradale-logo-line-up.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home4 .Auto-home4 {
+    background-image: url(../imgautos/sf90.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home4 .Texto-autos4 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home5 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home5 .Logo-home5 {
+    background-image: url(../imgautos/sf90spider.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home5 .Auto-home5 {
+    background-image: url(../imgautos/sf90spider.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home5 .Texto-autos5 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home6 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home6 .Logo-home6 {
+    background-image: url(../imgautos/ferrari-f8-tributologo-2-line-up.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home6 .Auto-home6 {
+    background-image: url(../imgautos/ferrari-f8-tributo-2019-05_1920x1600c.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home6 .Texto-autos6 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home7 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home7 .Logo-home7 {
+    background-image: url(../imgautos/ferrari-f8-spider-logo-2-line-up.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home7 .Auto-home7 {
+    background-image: url(../imgautos/ferrari-f8-spider-ferrari-f8-tributo_02_1440x655c.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home7 .Texto-autos7 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home8 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home8 .Logo-home8 {
+    background-image: url(../imgautos/ferrari-roma-logo-new-line-up.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home8 .Auto-home8 {
+    background-image: url(../imgautos/romaferrari1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home8 .Texto-autos8 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home9 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 200px;
+        grid-template-rows: 100px 200px 200px;
+    gap: 25px;
+    background-color: #212529;
+    margin-bottom: -40px;
+  }
+  .Autos-home9 .Logo-home9 {
+    background-image: url(../imgautos/portofinologo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home9 .Auto-home9 {
+    background-image: url(../imgautos/portofinom.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home9 .Texto-autos9 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1023px) {
+  .Autos-home1 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 200px;
+        grid-template-rows: 100px 200px 200px;
+    gap: 25px;
+    background-color: #212529;
+    margin-top: 0px;
+    padding-top: 50px;
+  }
+  .Autos-home1 .Logo-home1 {
+    background-image: url(../imgautos/ferrari-812-superfast-logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home1 .Auto-home1 {
+    background-image: url(../imgautos/812superfast.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 550px;
+    width: auto;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home1 .Texto-autos1 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+    font-size: 13px;
+  }
+  .Autos-home2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home2 .Logo-home2 {
+    background-image: url(../imgautos/812-gts@logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home2 .Auto-home2 {
+    background-image: url(../imgautos/ferrari-812-gts-la-spider-con-motor-v12-vuelve-despues-de-50-anos-778487.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home2 .Texto-autos2 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home3 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home3 .Logo-home3 {
+    background-image: url(../imgautos/296gtbç.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home3 .Auto-home3 {
+    background-image: url(../imgautos/Ferrari-296-GTB-2022-1-1130x636.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home3 .Texto-autos3 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home4 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home4 .Logo-home4 {
+    background-image: url(../imgautos/ferrari-sf90-stradale-logo-line-up.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home4 .Auto-home4 {
+    background-image: url(../imgautos/sf90.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home4 .Texto-autos4 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home5 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home5 .Logo-home5 {
+    background-image: url(../imgautos/sf90spider.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home5 .Auto-home5 {
+    background-image: url(../imgautos/sf90spider.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home5 .Texto-autos5 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home6 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home6 .Logo-home6 {
+    background-image: url(../imgautos/ferrari-f8-tributologo-2-line-up.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home6 .Auto-home6 {
+    background-image: url(../imgautos/ferrari-f8-tributo-2019-05_1920x1600c.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home6 .Texto-autos6 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home7 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home7 .Logo-home7 {
+    background-image: url(../imgautos/ferrari-f8-spider-logo-2-line-up.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home7 .Auto-home7 {
+    background-image: url(../imgautos/ferrari-f8-spider-ferrari-f8-tributo_02_1440x655c.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home7 .Texto-autos7 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home8 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home8 .Logo-home8 {
+    background-image: url(../imgautos/ferrari-roma-logo-new-line-up.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home8 .Auto-home8 {
+    background-image: url(../imgautos/romaferrari1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home8 .Texto-autos8 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home9 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 200px;
+        grid-template-rows: 100px 200px 200px;
+    gap: 25px;
+    background-color: #212529;
+    margin-bottom: -40px;
+  }
+  .Autos-home9 .Logo-home9 {
+    background-image: url(../imgautos/portofinologo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home9 .Auto-home9 {
+    background-image: url(../imgautos/portofinom.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home9 .Texto-autos9 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+}
+
+@media (min-width: 1024) and (max-width: 2561px) {
+  .Autos-home1 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 200px;
+        grid-template-rows: 100px 200px 200px;
+    gap: 25px;
+    background-color: #212529;
+    margin-top: 0px;
+    padding-top: 50px;
+  }
+  .Autos-home1 .Logo-home1 {
+    background-image: url(../imgautos/ferrari-812-superfast-logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home1 .Auto-home1 {
+    background-image: url(../imgautos/812superfast.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 550px;
+    width: auto;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home1 .Texto-autos1 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+    font-size: 13px;
+  }
+  .Autos-home2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home2 .Logo-home2 {
+    background-image: url(../imgautos/812-gts@logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home2 .Auto-home2 {
+    background-image: url(../imgautos/ferrari-812-gts-la-spider-con-motor-v12-vuelve-despues-de-50-anos-778487.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home2 .Texto-autos2 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home3 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home3 .Logo-home3 {
+    background-image: url(../imgautos/296gtbç.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home3 .Auto-home3 {
+    background-image: url(../imgautos/Ferrari-296-GTB-2022-1-1130x636.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home3 .Texto-autos3 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home4 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home4 .Logo-home4 {
+    background-image: url(../imgautos/ferrari-sf90-stradale-logo-line-up.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home4 .Auto-home4 {
+    background-image: url(../imgautos/sf90.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home4 .Texto-autos4 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home5 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home5 .Logo-home5 {
+    background-image: url(../imgautos/sf90spider.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home5 .Auto-home5 {
+    background-image: url(../imgautos/sf90spider.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home5 .Texto-autos5 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home6 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home6 .Logo-home6 {
+    background-image: url(../imgautos/ferrari-f8-tributologo-2-line-up.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home6 .Auto-home6 {
+    background-image: url(../imgautos/ferrari-f8-tributo-2019-05_1920x1600c.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home6 .Texto-autos6 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home7 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home7 .Logo-home7 {
+    background-image: url(../imgautos/ferrari-f8-spider-logo-2-line-up.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home7 .Auto-home7 {
+    background-image: url(../imgautos/ferrari-f8-spider-ferrari-f8-tributo_02_1440x655c.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home7 .Texto-autos7 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home8 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 300px;
+        grid-template-rows: 100px 200px 300px;
+    gap: 25px;
+    background-color: #212529;
+  }
+  .Autos-home8 .Logo-home8 {
+    background-image: url(../imgautos/ferrari-roma-logo-new-line-up.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home8 .Auto-home8 {
+    background-image: url(../imgautos/romaferrari1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home8 .Texto-autos8 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
+  .Autos-home9 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 200px 200px;
+        grid-template-rows: 100px 200px 200px;
+    gap: 25px;
+    background-color: #212529;
+    margin-bottom: -40px;
+  }
+  .Autos-home9 .Logo-home9 {
+    background-image: url(../imgautos/portofinologo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .Autos-home9 .Auto-home9 {
+    background-image: url(../imgautos/portofinom.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .Autos-home9 .Texto-autos9 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    color: white;
+  }
 }
 
 /* Pagina Universo */
