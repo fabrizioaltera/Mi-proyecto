@@ -263,7 +263,7 @@
 }
 
 /* Media queries Index */
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 479px) {
   .Noticia-home1 {
     display: -ms-grid;
     display: grid;
@@ -273,7 +273,6 @@
         grid-template-rows: 100px 150px 80px;
     grid-column-gap: 0px;
     grid-row-gap: 6px;
-    border: solid 5px #212529;
     background-color: #212529;
     margin-top: -10px;
   }
@@ -474,7 +473,7 @@
   }
 }
 
-@media (min-width: 480px) {
+@media (min-width: 480px) and (max-width: 599px) {
   .Noticia-home1 {
     display: -ms-grid;
     display: grid;
@@ -681,22 +680,478 @@
   }
 }
 
-@media (min-width: 1024) {
+@media (min-width: 600px) and (max-width: 799px) {
   .Noticia-home1 {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 50px 110px 110px 50px;
-        grid-template-columns: 50px 110px 110px 50px;
-    -ms-grid-rows: 100px 400px;
-        grid-template-rows: 100px 400px;
-    grid-column-gap: 3px;
-    grid-row-gap: 6px;
+    -ms-grid-columns: 100px 200px 200px 100px;
+        grid-template-columns: 100px 200px 200px 100px;
+    -ms-grid-rows: 100px 400px 150px;
+        grid-template-rows: 100px 400px 150px;
+    grid-column-gap: 30px;
+    grid-row-gap: 60px;
     border: solid 5px #212529;
     background-color: #212529;
     padding-bottom: 40px;
   }
   .Noticia-home1 .Titulo-home1 {
-    /* background-color: #212529; */
+    background-color: #212529;
+    color: white;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    font-size: 19px;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .Noticia-home1 .Imagen-home1 {
+    background-image: url(../img/6a0a3abf-ec3e-47b7-9930-7b3e2ec892fb.jpg);
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  .Noticia-home1 .Texto-home1 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    font-size: 13px;
+    background-color: #212529;
+    color: white;
+    padding: 25px;
+    overflow: auto;
+    scrollbar-gutter: auto;
+    height: 150px;
+    margin-top: -100px;
+  }
+  .Noticia-home2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100px 200px 200px 100px;
+        grid-template-columns: 100px 200px 200px 100px;
+    -ms-grid-rows: 100px 300px 100px;
+        grid-template-rows: 100px 300px 100px;
+    grid-column-gap: 30px;
+    grid-row-gap: 60px;
+    margin-top: -5px;
+    background-color: #212529;
+    padding-bottom: 40px;
+  }
+  .Noticia-home2 .Titulo-home2 {
+    background-color: #212529;
+    color: white;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    font-size: 19px;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-top: 5px;
+    margin-bottom: 50px;
+  }
+  .Noticia-home2 .Imagen-home2 {
+    background-image: url(../img/Notiferrari.jpg);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  .Noticia-home2 .Texto-home2 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    font-size: 13px;
+    background-color: #212529;
+    color: white;
+    padding: 25px;
+    overflow: auto;
+    margin-top: -150px;
+  }
+  .Noticia-home3 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100px 200px 200px 100px;
+        grid-template-columns: 100px 200px 200px 100px;
+    -ms-grid-rows: 100px 300px 100px;
+        grid-template-rows: 100px 300px 100px;
+    grid-column-gap: 30px;
+    grid-row-gap: 60px;
+    padding-bottom: 40px;
+    background-color: #212529;
+    margin-top: -5px;
+  }
+  .Noticia-home3 .Titulo-home3 {
+    background-color: #212529;
+    color: white;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    font-size: 19px;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .Noticia-home3 .Imagen-home3 {
+    background-image: url(../img/61dc48724eef4d7e2dc1be1c-oneinsidetwo1250x700.jfif);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  .Noticia-home3 .Texto-home3 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    font-size: 13px;
+    background-color: #212529;
+    color: white;
+    padding: 25px;
+    overflow: auto;
+  }
+  .Noticia-home4 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100px 200px 200px 100px;
+        grid-template-columns: 100px 200px 200px 100px;
+    -ms-grid-rows: 100px 300px 100px;
+        grid-template-rows: 100px 300px 100px;
+    gap: 30px;
+    padding-bottom: 40px;
+    background-color: #212529;
+    margin-top: -5px;
+  }
+  .Noticia-home4 .Titulo-home4 {
+    background-color: #212529;
+    color: white;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    font-size: 19px;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .Noticia-home4 .Imagen-home4 {
+    background-image: url(../img/61b6413b4cf43702c75d4f6a-2021-ferrari-abu-dhabi-grand-prix-race-report-gtw2.jfif);
+    width: auto;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  .Noticia-home4 .Texto-home4 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    font-size: 13px;
+    background-color: #212529;
+    color: white;
+    padding: 25px;
+    overflow: auto;
+    height: 100px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1023px) {
+  .Noticia-home1 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 120px 280px 280px 120px;
+        grid-template-columns: 120px 280px 280px 120px;
+    -ms-grid-rows: 100px 400px 140px;
+        grid-template-rows: 100px 400px 140px;
+    grid-column-gap: 30px;
+    grid-row-gap: 60px;
+    border: solid 5px #212529;
+    background-color: #212529;
+    padding-bottom: 40px;
+  }
+  .Noticia-home1 .Titulo-home1 {
+    background-color: #212529;
+    color: white;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    font-size: 35px;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .Noticia-home1 .Imagen-home1 {
+    background-image: url(../img/6a0a3abf-ec3e-47b7-9930-7b3e2ec892fb.jpg);
+    max-width: 560px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  .Noticia-home1 .Texto-home1 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    font-size: 13px;
+    background-color: #212529;
+    color: white;
+    padding: 25px;
+    height: 100px;
+    max-width: 560px;
+  }
+  .Noticia-home2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 120px 280px 280px 120px;
+        grid-template-columns: 120px 280px 280px 120px;
+    -ms-grid-rows: 100px 200px 100px;
+        grid-template-rows: 100px 200px 100px;
+    grid-column-gap: 30px;
+    grid-row-gap: 60px;
+    background-color: #212529;
+    padding-bottom: 40px;
+    padding-top: 100px;
+    margin-top: -5px;
+  }
+  .Noticia-home2 .Titulo-home2 {
+    background-color: #212529;
+    color: white;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    font-size: 35px;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-top: 5px;
+  }
+  .Noticia-home2 .Imagen-home2 {
+    margin-top: 30px;
+    background-image: url(../img/Notiferrari.jpg);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  .Noticia-home2 .Texto-home2 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    font-size: 13px;
+    background-color: #212529;
+    color: white;
+    padding: 25px;
+    overflow: auto;
+  }
+  .Noticia-home3 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 120px 280px 280px 120px;
+        grid-template-columns: 120px 280px 280px 120px;
+    -ms-grid-rows: 100px 400px 120px;
+        grid-template-rows: 100px 400px 120px;
+    grid-column-gap: 30px;
+    grid-row-gap: 60px;
+    padding-bottom: 40px;
+    background-color: #212529;
+    margin-top: -5px;
+  }
+  .Noticia-home3 .Titulo-home3 {
+    background-color: #212529;
+    color: white;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    font-size: 35px;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .Noticia-home3 .Imagen-home3 {
+    background-image: url(../img/61dc48724eef4d7e2dc1be1c-oneinsidetwo1250x700.jfif);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  .Noticia-home3 .Texto-home3 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    font-size: 13px;
+    background-color: #212529;
+    color: white;
+    padding: 25px;
+    overflow: auto;
+  }
+  .Noticia-home4 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 120px 280px 280px 120px;
+        grid-template-columns: 120px 280px 280px 120px;
+    -ms-grid-rows: 100px 400px 130px;
+        grid-template-rows: 100px 400px 130px;
+    gap: 30px;
+    padding-bottom: 40px;
+    background-color: #212529;
+    margin-top: -5px;
+  }
+  .Noticia-home4 .Titulo-home4 {
+    background-color: #212529;
+    color: white;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    font-size: 35px;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .Noticia-home4 .Imagen-home4 {
+    background-image: url(../img/61b6413b4cf43702c75d4f6a-2021-ferrari-abu-dhabi-grand-prix-race-report-gtw2.jfif);
+    width: auto;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  .Noticia-home4 .Texto-home4 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    font-size: 13px;
+    background-color: #212529;
+    color: white;
+    padding: 25px;
+    overflow: auto;
+    height: 280px;
+  }
+}
+
+@media (min-width: 1024) and (max-width: 2561px) {
+  .Noticia-home1 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
+    -ms-grid-rows: 100px 400px;
+        grid-template-rows: 100px 400px;
+    grid-column-gap: 30px;
+    grid-row-gap: 60px;
+    border: solid 5px #212529;
+    background-color: #212529;
+    padding-bottom: 40px;
+  }
+  .Noticia-home1 .Titulo-home1 {
+    background-color: #212529;
     color: white;
     -ms-grid-column: 2;
     -ms-grid-column-span: 2;
@@ -711,7 +1166,7 @@
   .Noticia-home1 .Imagen-home1 {
     background-image: url(../img/6a0a3abf-ec3e-47b7-9930-7b3e2ec892fb.jpg);
     width: 100%;
-    height: 100px;
+    height: 500px;
     background-repeat: no-repeat;
     background-size: 100%;
     -ms-grid-column: 3;
@@ -729,7 +1184,7 @@
     -ms-grid-row-span: 1;
     grid-row: 2/3;
     font-size: 13px;
-    /* background-color: #212529; */
+    background-color: #212529;
     color: white;
     padding: 25px;
     overflow: auto;
@@ -739,15 +1194,15 @@
   .Noticia-home2 {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 50px 110px 110px 50px;
-        grid-template-columns: 50px 110px 110px 50px;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
     -ms-grid-rows: 100px 300px;
         grid-template-rows: 100px 300px;
-    grid-column-gap: 3px;
-    grid-row-gap: 6px;
+    grid-column-gap: 30px;
+    grid-row-gap: 60px;
     margin-top: 0px;
     background-color: #212529;
-    padding-bottom: 4px;
+    padding-bottom: 40px;
   }
   .Noticia-home2 .Titulo-home2 {
     background-color: #212529;
@@ -766,7 +1221,7 @@
   .Noticia-home2 .Imagen-home2 {
     background-image: url(../img/Notiferrari.jpg);
     width: 100%;
-    height: 100px;
+    height: 500px;
     background-repeat: no-repeat;
     background-size: 100%;
     -ms-grid-column: 2;
@@ -786,19 +1241,19 @@
     font-size: 13px;
     background-color: #212529;
     color: white;
-    padding: 2,5px;
+    padding: 25px;
     overflow: auto;
   }
   .Noticia-home3 {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 50px 110px 110px 50px;
-        grid-template-columns: 50px 110px 110px 50px;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
     -ms-grid-rows: 100px 350px;
         grid-template-rows: 100px 350px;
-    grid-column-gap: 3px;
-    grid-row-gap: 6px;
-    padding-bottom: 4px;
+    grid-column-gap: 30px;
+    grid-row-gap: 60px;
+    padding-bottom: 40px;
     background-color: #212529;
   }
   .Noticia-home3 .Titulo-home3 {
@@ -817,7 +1272,7 @@
   .Noticia-home3 .Imagen-home3 {
     background-image: url(../img/61dc48724eef4d7e2dc1be1c-oneinsidetwo1250x700.jfif);
     width: 100%;
-    height: 100px;
+    height: 500px;
     background-repeat: no-repeat;
     background-size: 100%;
     -ms-grid-column: 3;
@@ -837,18 +1292,18 @@
     font-size: 13px;
     background-color: #212529;
     color: white;
-    padding: 2,5px;
+    padding: 25px;
     overflow: auto;
   }
   .Noticia-home4 {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 50px 110px 110px 50px;
-        grid-template-columns: 50px 110px 110px 50px;
+    -ms-grid-columns: 200px 550px 550px 200px;
+        grid-template-columns: 200px 550px 550px 200px;
     -ms-grid-rows: 100px 400px;
         grid-template-rows: 100px 400px;
-    gap: 3px;
-    padding-bottom: 4px;
+    gap: 30px;
+    padding-bottom: 40px;
     background-color: #212529;
   }
   .Noticia-home4 .Titulo-home4 {
@@ -867,7 +1322,7 @@
   .Noticia-home4 .Imagen-home4 {
     background-image: url(../img/61b6413b4cf43702c75d4f6a-2021-ferrari-abu-dhabi-grand-prix-race-report-gtw2.jfif);
     width: auto;
-    height: 100px;
+    height: 400px;
     background-repeat: no-repeat;
     background-size: 100%;
     -ms-grid-column: 2;
@@ -1937,7 +2392,7 @@
 }
 
 /* media queries footer */
-@media (min-width: 480px) {
+@media (min-width: 480px) and (max-width: 599px) {
   .Footer-ferrari {
     display: -ms-grid;
     display: grid;
@@ -2148,15 +2603,16 @@
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 600px) and (max-width: 799px) {
   .Footer-ferrari {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 120px 360px 120px;
         grid-template-columns: 120px 360px 120px;
-    -ms-grid-row: 500;
-    grid-row: 500px;
+    -ms-grid-row: 300;
+    grid-row: 300px;
     gap: 10px;
+    margin-top: -5px;
     background-color: #212529;
   }
   .Footer-ferrari .Footer {
@@ -2211,6 +2667,7 @@
             align-items: center;
     text-decoration: none;
     color: white;
+    font-size: 7px;
   }
   .Footer-ferrari .Footer .fb {
     -ms-grid-column: 2;
@@ -2243,6 +2700,7 @@
             align-items: center;
     text-decoration: none;
     color: white;
+    font-size: 7px;
   }
   .Footer-ferrari .Footer .in {
     -ms-grid-column: 3;
@@ -2278,6 +2736,7 @@
             align-items: center;
     text-decoration: none;
     color: white;
+    font-size: 7px;
   }
   .Footer-ferrari .Footer .tw {
     -ms-grid-column: 4;
@@ -2313,6 +2772,7 @@
             align-items: center;
     text-decoration: none;
     color: white;
+    font-size: 7px;
   }
   .Footer-ferrari .Footer .yt {
     -ms-grid-column: 5;
@@ -2349,10 +2809,11 @@
     -webkit-text-decoration-line: none;
             text-decoration-line: none;
     color: white;
+    font-size: 7px;
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 800px) and (max-width: 1023px) {
   .Footer-ferrari {
     display: -ms-grid;
     display: grid;
@@ -2361,6 +2822,7 @@
     -ms-grid-row: 500;
     grid-row: 500px;
     gap: 10px;
+    margin-top: -5px;
     background-color: #212529;
   }
   .Footer-ferrari .Footer {
@@ -2556,7 +3018,7 @@
   }
 }
 
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 479px) {
   .Footer-ferrari {
     display: -ms-grid;
     display: grid;
@@ -2763,6 +3225,210 @@
             text-decoration-line: none;
     color: white;
     font-size: 6px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 2561px) {
+  .Footer-ferrari {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 220px 1100px 200px;
+        grid-template-columns: 220px 1100px 200px;
+    -ms-grid-row: 500;
+    grid-row: 500px;
+    gap: 10px;
+    background-color: #212529;
+  }
+  .Footer-ferrari .Footer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 20% 20% 20% 20% 20%;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+    -ms-grid-rows: 35px 90px 90px;
+        grid-template-rows: 35px 90px 90px;
+    gap: 5px;
+    color: black;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    background-color: #212529;
+    padding: 20px 0px;
+  }
+  .Footer-ferrari .Footer .ig {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: top;
+        -ms-grid-row-align: top;
+        align-self: top;
+  }
+  .Footer-ferrari .Footer .grid_instagram {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+    color: white;
+  }
+  .Footer-ferrari .Footer .fb {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: top;
+        -ms-grid-row-align: top;
+        align-self: top;
+  }
+  .Footer-ferrari .Footer .grid_facebook {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+    color: white;
+  }
+  .Footer-ferrari .Footer .in {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: top;
+        -ms-grid-row-align: top;
+        align-self: top;
+  }
+  .Footer-ferrari .Footer .grid_linkedin {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+    color: white;
+  }
+  .Footer-ferrari .Footer .tw {
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
+    grid-column: 4/5;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: top;
+        -ms-grid-row-align: top;
+        align-self: top;
+  }
+  .Footer-ferrari .Footer .grid_twitter {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+    color: white;
+  }
+  .Footer-ferrari .Footer .yt {
+    -ms-grid-column: 5;
+    -ms-grid-column-span: 1;
+    grid-column: 5/6;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: top;
+        -ms-grid-row-align: top;
+        align-self: top;
+  }
+  .Footer-ferrari .Footer .grid_youtube {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-text-decoration-line: none;
+            text-decoration-line: none;
+    color: white;
   }
 }
 /*# sourceMappingURL=style.css.map */
