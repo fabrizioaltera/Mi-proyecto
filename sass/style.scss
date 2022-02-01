@@ -1333,11 +1333,13 @@ body{
     .Autos-home1{
         display: grid;
         grid-template-columns:30px 130px 130px 30px ;
-        grid-template-rows: 100px 200px 100px;
+        grid-template-rows: 100px 50px 50px;
         gap: 5px;
         background-color: #212529;
         margin-top: 0px;
         padding-top: 50px;
+        margin-left: -10px;
+        margin-right: -50px;
         
     
         .Logo-home1{
@@ -1368,10 +1370,13 @@ body{
     
     .Autos-home2{
         display: grid;
-        grid-template-columns:200px 550px 550px 200px ;
-        grid-template-rows: 100px 200px 300px;
+        grid-template-columns:30px 130px 130px 30px ;
+        grid-template-rows: 100px 50px 50px;
         gap: 25px;
         background-color: #212529;
+        margin-top: -2px;
+        margin-left: -15px;
+        margin-right: -50px;
         .Logo-home2{
             background-image: url(../imgautos/812-gts@logo.png);
             background-repeat: no-repeat;
@@ -1387,25 +1392,30 @@ body{
             grid-column: 2/3;
         }
         .Texto-autos2{
-            grid-column: 3/4 ;
+            grid-column:2/4 ;
             grid-row: 2/4;
-            color: white;
+            color: white; 
+            font-size: 6px;
+            overflow: scroll;
     
         }
     }
     
     .Autos-home3{
         display: grid;
-        grid-template-columns:200px 550px 550px 200px ;
-        grid-template-rows: 100px 200px 300px;
+        grid-template-columns:30px 130px 130px 30px ;
+        grid-template-rows: 100px 50px 50px;
         gap: 25px;
         background-color: #212529;
+        margin-top: -2px;
+        margin-left: -15px;
+        margin-right: -50px;
         .Logo-home3{
             background-image: url(../imgautos/296gtbç.png);
             background-repeat: no-repeat;
             background-size: 100%;
             grid-row: 1/2;
-           grid-column:2/3 ;
+            grid-column:2/3 ;
         }
         .Auto-home3{
             background-image: url(../imgautos/Ferrari-296-GTB-2022-1-1130x636.jpg);
@@ -1415,18 +1425,23 @@ body{
             grid-column:3/4 ;
         }
         .Texto-autos3{
-            grid-column:2/3 ;
+            grid-column:2/4 ;
             grid-row: 2/4;
             color: white;
+            font-size: 6px;
+            overflow: scroll;
         }
     }
     
     .Autos-home4{
         display: grid;
-        grid-template-columns:200px 550px 550px 200px ;
-        grid-template-rows: 100px 200px 300px;
+        grid-template-columns:30px 130px 130px 30px ;
+        grid-template-rows: 100px 50px 50px;
         gap: 25px;
         background-color: #212529;
+        margin-top: -2px;
+        margin-left: -15px;
+        margin-right: -50px;
         .Logo-home4{
             background-image: url(../imgautos/ferrari-sf90-stradale-logo-line-up.png);
             background-repeat: no-repeat;
@@ -1442,24 +1457,29 @@ body{
             grid-column: 2/3;
         }
         .Texto-autos4{
-            grid-column: 3/4 ;
+            grid-column:2/4 ;
             grid-row: 2/4;
-            color: white;
+            color: white; 
+            font-size: 6px;
+            overflow: scroll;
         }
     }
     
     .Autos-home5{
         display: grid;
-        grid-template-columns:200px 550px 550px 200px ;
-        grid-template-rows: 100px 200px 300px;
+        grid-template-columns:30px 130px 130px 30px ;
+        grid-template-rows: 100px 50px 50px;
         gap: 25px;
         background-color: #212529;
+        margin-top: -2px;
+        margin-left: -15px;
+        margin-right: -50px;
         .Logo-home5{
             background-image: url(../imgautos/sf90spider.png);
             background-repeat: no-repeat;
             background-size: 100%;
             grid-row: 1/2;
-           grid-column:2/3 ;
+            grid-column:2/3 ;
         }
         .Auto-home5{
             background-image: url(../imgautos/sf90spider.jpg);
@@ -1469,18 +1489,23 @@ body{
             grid-column:3/4 ;
         }
         .Texto-autos5{
-            grid-column:2/3 ;
+            grid-column:2/4 ;
             grid-row: 2/4;
             color: white;
+            font-size: 6px;
+            overflow: scroll;
         }
     }
     
     .Autos-home6{
         display: grid;
-        grid-template-columns:200px 550px 550px 200px ;
-        grid-template-rows: 100px 200px 300px;
+        grid-template-columns:30px 130px 130px 30px ;
+        grid-template-rows: 100px 50px 50px;
         gap: 25px;
         background-color: #212529;
+        margin-top: -2px;
+        margin-left: -15px;
+        margin-right: -50px;
         .Logo-home6{
             background-image: url(../imgautos/ferrari-f8-tributologo-2-line-up.png);
             background-repeat: no-repeat;
@@ -1496,18 +1521,23 @@ body{
             grid-column: 2/3;
         }
         .Texto-autos6{
-            grid-column: 3/4 ;
+            grid-column:2/4 ;
             grid-row: 2/4;
-            color: white;
+            color: white; 
+            font-size: 6px;
+            overflow: scroll;
         }
     }
     
     .Autos-home7{
         display: grid;
-        grid-template-columns:200px 550px 550px 200px ;
-        grid-template-rows: 100px 200px 300px;
+        grid-template-columns:30px 130px 130px 30px ;
+        grid-template-rows: 100px 50px 50px;
         gap: 25px;
         background-color: #212529;
+        margin-top: -2px;
+        margin-left: -15px;
+        margin-right: -50px;
         .Logo-home7{
             background-image: url(../imgautos/ferrari-f8-spider-logo-2-line-up.png);
             background-repeat: no-repeat;
@@ -1523,18 +1553,23 @@ body{
             grid-column:3/4 ;
         }
         .Texto-autos7{
-            grid-column:2/3 ;
+            grid-column:2/4 ;
             grid-row: 2/4;
             color: white;
+            font-size: 6px;
+            overflow: scroll;
         }
     }
     
     .Autos-home8{
         display: grid;
-        grid-template-columns:200px 550px 550px 200px ;
-        grid-template-rows: 100px 200px 300px;
+        grid-template-columns:30px 130px 130px 30px ;
+        grid-template-rows: 100px 50px 50px;
         gap: 25px;
         background-color: #212529;
+        margin-top: -2px;
+        margin-left: -15px;
+        margin-right: -50px;
         .Logo-home8{
             background-image: url(../imgautos/ferrari-roma-logo-new-line-up.png);
             background-repeat: no-repeat;
@@ -1550,19 +1585,24 @@ body{
             grid-column: 2/3;
         }
         .Texto-autos8{
-            grid-column: 3/4 ;
+            grid-column:2/4 ;
             grid-row: 2/4;
-            color: white;
+            color: white; 
+            font-size: 6px;
+            overflow: scroll;
         }
     }
     
     .Autos-home9{
         display: grid;
-        grid-template-columns:200px 550px 550px 200px ;
-        grid-template-rows: 100px 200px 200px;
+        grid-template-columns:30px 130px 130px 30px ;
+        grid-template-rows: 100px 50px 50px;
         gap: 25px;
         background-color: #212529;
         margin-bottom: -40px;
+        margin-top: -2px;
+        margin-left: -15px;
+        margin-right: -50px;
         .Logo-home9{
             background-image: url(../imgautos/portofinologo.png);
             background-repeat: no-repeat;
@@ -1578,9 +1618,11 @@ body{
             grid-column:3/4 ;
         }
         .Texto-autos9{
-            grid-column:2/3 ;
+            grid-column:2/4 ;
             grid-row: 2/4;
             color: white;
+            font-size: 6px;
+            overflow: scroll;
         }
     }
 }
@@ -1588,12 +1630,14 @@ body{
 @media (min-width:480px ) and (max-width:599px ){
     .Autos-home1{
         display: grid;
-        grid-template-columns:200px 550px 550px 200px ;
-        grid-template-rows: 100px 200px 200px;
+        grid-template-columns:100px 200px 200px 100px ;
+        grid-template-rows: 100px 100px 50px;
         gap: 25px;
         background-color: #212529;
         margin-top: 0px;
         padding-top: 50px;
+        margin-left: -80px;
+        
         
     
         .Logo-home1{
@@ -1613,20 +1657,26 @@ body{
             grid-column:3/4 ;
         }
         .Texto-autos1{
-            grid-column:2/3 ;
+            margin-top: 15px;
+            grid-column:2/4 ;
             grid-row: 2/4;
             color: white;
-            font-size: 13px;
+            font-size: 9px;
+            margin-bottom: -100px;
             
         }
     }
     
     .Autos-home2{
         display: grid;
-        grid-template-columns:200px 550px 550px 200px ;
-        grid-template-rows: 100px 200px 300px;
+        grid-template-columns:100px 200px 200px 100px ;
+        grid-template-rows: 100px 100px 50px;
         gap: 25px;
         background-color: #212529;
+        margin-left: -80px;
+        margin-top: -5px;
+        
+
         .Logo-home2{
             background-image: url(../imgautos/812-gts@logo.png);
             background-repeat: no-repeat;
@@ -1642,19 +1692,21 @@ body{
             grid-column: 2/3;
         }
         .Texto-autos2{
-            grid-column: 3/4 ;
+            grid-column: 2/4 ;
             grid-row: 2/4;
             color: white;
+            font-size: 9px;
     
         }
     }
     
     .Autos-home3{
         display: grid;
-        grid-template-columns:200px 550px 550px 200px ;
-        grid-template-rows: 100px 200px 300px;
+        grid-template-columns:100px 200px 200px 100px ;
+        grid-template-rows: 100px 100px 50px;
         gap: 25px;
         background-color: #212529;
+        margin-left: -80px;
         .Logo-home3{
             background-image: url(../imgautos/296gtbç.png);
             background-repeat: no-repeat;
@@ -1670,18 +1722,23 @@ body{
             grid-column:3/4 ;
         }
         .Texto-autos3{
-            grid-column:2/3 ;
+            margin-top: 15px;
+            grid-column:2/4 ;
             grid-row: 2/4;
             color: white;
+            font-size: 9px;
+            margin-bottom: -100px;
         }
     }
     
     .Autos-home4{
         display: grid;
-        grid-template-columns:200px 550px 550px 200px ;
-        grid-template-rows: 100px 200px 300px;
+        grid-template-columns:100px 200px 200px 100px ;
+        grid-template-rows: 100px 100px 50px;
         gap: 25px;
         background-color: #212529;
+        margin-left: -80px;
+        margin-top: -5px;
         .Logo-home4{
             background-image: url(../imgautos/ferrari-sf90-stradale-logo-line-up.png);
             background-repeat: no-repeat;
@@ -1697,18 +1754,20 @@ body{
             grid-column: 2/3;
         }
         .Texto-autos4{
-            grid-column: 3/4 ;
+            grid-column: 2/4 ;
             grid-row: 2/4;
             color: white;
+            font-size: 9px;
         }
     }
     
     .Autos-home5{
         display: grid;
-        grid-template-columns:200px 550px 550px 200px ;
-        grid-template-rows: 100px 200px 300px;
+        grid-template-columns:100px 200px 200px 100px ;
+        grid-template-rows: 100px 100px 50px;
         gap: 25px;
         background-color: #212529;
+        margin-left: -80px;
         .Logo-home5{
             background-image: url(../imgautos/sf90spider.png);
             background-repeat: no-repeat;
@@ -1724,18 +1783,23 @@ body{
             grid-column:3/4 ;
         }
         .Texto-autos5{
-            grid-column:2/3 ;
+            margin-top: 15px;
+            grid-column:2/4 ;
             grid-row: 2/4;
             color: white;
+            font-size: 9px;
+            margin-bottom: -100px;
         }
     }
     
     .Autos-home6{
         display: grid;
-        grid-template-columns:200px 550px 550px 200px ;
-        grid-template-rows: 100px 200px 300px;
+        grid-template-columns:100px 200px 200px 100px ;
+        grid-template-rows: 100px 100px 50px;
         gap: 25px;
         background-color: #212529;
+        margin-left: -80px;
+        margin-top: -5px;
         .Logo-home6{
             background-image: url(../imgautos/ferrari-f8-tributologo-2-line-up.png);
             background-repeat: no-repeat;
@@ -1751,18 +1815,20 @@ body{
             grid-column: 2/3;
         }
         .Texto-autos6{
-            grid-column: 3/4 ;
+            grid-column: 2/4 ;
             grid-row: 2/4;
             color: white;
+            font-size: 9px;
         }
     }
     
     .Autos-home7{
         display: grid;
-        grid-template-columns:200px 550px 550px 200px ;
-        grid-template-rows: 100px 200px 300px;
+        grid-template-columns:100px 200px 200px 100px ;
+        grid-template-rows: 100px 100px 50px;
         gap: 25px;
         background-color: #212529;
+        margin-left: -80px;
         .Logo-home7{
             background-image: url(../imgautos/ferrari-f8-spider-logo-2-line-up.png);
             background-repeat: no-repeat;
@@ -1778,18 +1844,23 @@ body{
             grid-column:3/4 ;
         }
         .Texto-autos7{
-            grid-column:2/3 ;
+            margin-top: 15px;
+            grid-column:2/4 ;
             grid-row: 2/4;
             color: white;
+            font-size: 9px;
+            margin-bottom: -100px;
         }
     }
     
     .Autos-home8{
         display: grid;
-        grid-template-columns:200px 550px 550px 200px ;
-        grid-template-rows: 100px 200px 300px;
+        grid-template-columns:100px 200px 200px 100px ;
+        grid-template-rows: 100px 100px 50px;
         gap: 25px;
         background-color: #212529;
+        margin-left: -80px;
+        margin-top: -5px;
         .Logo-home8{
             background-image: url(../imgautos/ferrari-roma-logo-new-line-up.png);
             background-repeat: no-repeat;
@@ -1805,19 +1876,21 @@ body{
             grid-column: 2/3;
         }
         .Texto-autos8{
-            grid-column: 3/4 ;
+            grid-column: 2/4 ;
             grid-row: 2/4;
             color: white;
+            font-size: 9px;
         }
     }
     
     .Autos-home9{
         display: grid;
-        grid-template-columns:200px 550px 550px 200px ;
-        grid-template-rows: 100px 200px 200px;
+        grid-template-columns:100px 200px 200px 100px ;
+        grid-template-rows: 100px 100px 50px;
         gap: 25px;
         background-color: #212529;
         margin-bottom: -40px;
+        margin-left: -80px;
         .Logo-home9{
             background-image: url(../imgautos/portofinologo.png);
             background-repeat: no-repeat;
@@ -1833,9 +1906,12 @@ body{
             grid-column:3/4 ;
         }
         .Texto-autos9{
-            grid-column:2/3 ;
+            margin-top: 15px;
+            grid-column:2/4 ;
             grid-row: 2/4;
             color: white;
+            font-size: 9px;
+            margin-bottom: -100px;
         }
     }
 }
@@ -1843,12 +1919,14 @@ body{
 @media (min-width:600px ) and (max-width:799px ){
     .Autos-home1{
         display: grid;
-        grid-template-columns:200px 550px 550px 200px ;
-        grid-template-rows: 100px 200px 200px;
+        grid-template-columns:100px 200px 200px 100px ;
+        grid-template-rows: 100px 100px 50px;
         gap: 25px;
         background-color: #212529;
         margin-top: 0px;
         padding-top: 50px;
+        margin-left: -80px;
+        
         
     
         .Logo-home1{
@@ -1868,20 +1946,26 @@ body{
             grid-column:3/4 ;
         }
         .Texto-autos1{
-            grid-column:2/3 ;
+            margin-top: 15px;
+            grid-column:2/4 ;
             grid-row: 2/4;
             color: white;
-            font-size: 13px;
+            font-size: 9px;
+            margin-bottom: -100px;
             
         }
     }
     
     .Autos-home2{
         display: grid;
-        grid-template-columns:200px 550px 550px 200px ;
-        grid-template-rows: 100px 200px 300px;
+        grid-template-columns:100px 200px 200px 100px ;
+        grid-template-rows: 100px 100px 50px;
         gap: 25px;
         background-color: #212529;
+        margin-left: -80px;
+        margin-top: -5px;
+        
+
         .Logo-home2{
             background-image: url(../imgautos/812-gts@logo.png);
             background-repeat: no-repeat;
@@ -1897,19 +1981,21 @@ body{
             grid-column: 2/3;
         }
         .Texto-autos2{
-            grid-column: 3/4 ;
+            grid-column: 2/4 ;
             grid-row: 2/4;
             color: white;
+            font-size: 9px;
     
         }
     }
     
     .Autos-home3{
         display: grid;
-        grid-template-columns:200px 550px 550px 200px ;
-        grid-template-rows: 100px 200px 300px;
+        grid-template-columns:100px 200px 200px 100px ;
+        grid-template-rows: 100px 100px 50px;
         gap: 25px;
         background-color: #212529;
+        margin-left: -80px;
         .Logo-home3{
             background-image: url(../imgautos/296gtbç.png);
             background-repeat: no-repeat;
@@ -1925,18 +2011,23 @@ body{
             grid-column:3/4 ;
         }
         .Texto-autos3{
-            grid-column:2/3 ;
+            margin-top: 15px;
+            grid-column:2/4 ;
             grid-row: 2/4;
             color: white;
+            font-size: 9px;
+            margin-bottom: -100px;
         }
     }
     
     .Autos-home4{
         display: grid;
-        grid-template-columns:200px 550px 550px 200px ;
-        grid-template-rows: 100px 200px 300px;
+        grid-template-columns:100px 200px 200px 100px ;
+        grid-template-rows: 100px 100px 50px;
         gap: 25px;
         background-color: #212529;
+        margin-left: -80px;
+        margin-top: -5px;
         .Logo-home4{
             background-image: url(../imgautos/ferrari-sf90-stradale-logo-line-up.png);
             background-repeat: no-repeat;
@@ -1952,18 +2043,20 @@ body{
             grid-column: 2/3;
         }
         .Texto-autos4{
-            grid-column: 3/4 ;
+            grid-column: 2/4 ;
             grid-row: 2/4;
             color: white;
+            font-size: 9px;
         }
     }
     
     .Autos-home5{
         display: grid;
-        grid-template-columns:200px 550px 550px 200px ;
-        grid-template-rows: 100px 200px 300px;
+        grid-template-columns:100px 200px 200px 100px ;
+        grid-template-rows: 100px 100px 50px;
         gap: 25px;
         background-color: #212529;
+        margin-left: -80px;
         .Logo-home5{
             background-image: url(../imgautos/sf90spider.png);
             background-repeat: no-repeat;
@@ -1979,18 +2072,23 @@ body{
             grid-column:3/4 ;
         }
         .Texto-autos5{
-            grid-column:2/3 ;
+            margin-top: 15px;
+            grid-column:2/4 ;
             grid-row: 2/4;
             color: white;
+            font-size: 9px;
+            margin-bottom: -100px;
         }
     }
     
     .Autos-home6{
         display: grid;
-        grid-template-columns:200px 550px 550px 200px ;
-        grid-template-rows: 100px 200px 300px;
+        grid-template-columns:100px 200px 200px 100px ;
+        grid-template-rows: 100px 100px 50px;
         gap: 25px;
         background-color: #212529;
+        margin-left: -80px;
+        margin-top: -5px;
         .Logo-home6{
             background-image: url(../imgautos/ferrari-f8-tributologo-2-line-up.png);
             background-repeat: no-repeat;
@@ -2006,18 +2104,20 @@ body{
             grid-column: 2/3;
         }
         .Texto-autos6{
-            grid-column: 3/4 ;
+            grid-column: 2/4 ;
             grid-row: 2/4;
             color: white;
+            font-size: 9px;
         }
     }
     
     .Autos-home7{
         display: grid;
-        grid-template-columns:200px 550px 550px 200px ;
-        grid-template-rows: 100px 200px 300px;
+        grid-template-columns:100px 200px 200px 100px ;
+        grid-template-rows: 100px 100px 50px;
         gap: 25px;
         background-color: #212529;
+        margin-left: -80px;
         .Logo-home7{
             background-image: url(../imgautos/ferrari-f8-spider-logo-2-line-up.png);
             background-repeat: no-repeat;
@@ -2033,18 +2133,23 @@ body{
             grid-column:3/4 ;
         }
         .Texto-autos7{
-            grid-column:2/3 ;
+            margin-top: 15px;
+            grid-column:2/4 ;
             grid-row: 2/4;
             color: white;
+            font-size: 9px;
+            margin-bottom: -100px;
         }
     }
     
     .Autos-home8{
         display: grid;
-        grid-template-columns:200px 550px 550px 200px ;
-        grid-template-rows: 100px 200px 300px;
+        grid-template-columns:100px 200px 200px 100px ;
+        grid-template-rows: 100px 100px 50px;
         gap: 25px;
         background-color: #212529;
+        margin-left: -80px;
+        margin-top: -5px;
         .Logo-home8{
             background-image: url(../imgautos/ferrari-roma-logo-new-line-up.png);
             background-repeat: no-repeat;
@@ -2060,19 +2165,21 @@ body{
             grid-column: 2/3;
         }
         .Texto-autos8{
-            grid-column: 3/4 ;
+            grid-column: 2/4 ;
             grid-row: 2/4;
             color: white;
+            font-size: 9px;
         }
     }
     
     .Autos-home9{
         display: grid;
-        grid-template-columns:200px 550px 550px 200px ;
-        grid-template-rows: 100px 200px 200px;
+        grid-template-columns:100px 200px 200px 100px ;
+        grid-template-rows: 100px 100px 50px;
         gap: 25px;
         background-color: #212529;
         margin-bottom: -40px;
+        margin-left: -80px;
         .Logo-home9{
             background-image: url(../imgautos/portofinologo.png);
             background-repeat: no-repeat;
@@ -2088,11 +2195,14 @@ body{
             grid-column:3/4 ;
         }
         .Texto-autos9{
-            grid-column:2/3 ;
+            margin-top: 15px;
+            grid-column:2/4 ;
             grid-row: 2/4;
             color: white;
+            font-size: 9px;
+            margin-bottom: -100px;
         }
-    }
+    } 
 }
 
 @media (min-width:800px ) and (max-width:1023px ){
