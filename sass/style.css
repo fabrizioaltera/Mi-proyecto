@@ -4073,142 +4073,142 @@ body {
   margin-bottom: 25px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 300px 300px 300px 300px 300px;
-      grid-template-columns: 300px 300px 300px 300px 300px;
-  -ms-grid-rows: 100px 100px 100px 100px 100px 100px 100px 100px 200px 100px 100px 100px 100px;
-      grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 200px 100px 100px 100px 100px;
+  -ms-grid-columns: 300px 425px 50px 425px 300px;
+      grid-template-columns: 300px 425px 50px 425px 300px;
+  -ms-grid-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+      grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
   gap: 3px;
   color: white;
 }
 
 .Formulario .Nombre-usuario {
   -ms-grid-column: 2;
-  -ms-grid-column-span: 3;
-  grid-column: 2/5;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1/2;
-  background-color: darkblue;
+  background-color: #212529;
 }
 
 .Formulario .Apellido-usuario {
   -ms-grid-column: 2;
-  -ms-grid-column-span: 3;
-  grid-column: 2/5;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2/3;
-  background-color: darkblue;
+  background-color: #212529;
 }
 
 .Formulario .Dni-usuario {
   -ms-grid-column: 2;
-  -ms-grid-column-span: 3;
-  grid-column: 2/5;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
   -ms-grid-row: 3;
   -ms-grid-row-span: 1;
   grid-row: 3/4;
-  background-color: darkblue;
+  background-color: #212529;
 }
 
 .Formulario .Email-usuario {
   -ms-grid-column: 2;
-  -ms-grid-column-span: 3;
-  grid-column: 2/5;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
   -ms-grid-row: 4;
   -ms-grid-row-span: 1;
   grid-row: 4/5;
-  background-color: darkblue;
+  background-color: #212529;
 }
 
 .Formulario .Email2-usuario {
   -ms-grid-column: 2;
-  -ms-grid-column-span: 3;
-  grid-column: 2/5;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
   -ms-grid-row: 5;
   -ms-grid-row-span: 1;
   grid-row: 5/6;
-  background-color: darkblue;
+  background-color: #212529;
 }
 
 .Formulario .Telefono-usuario {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 3;
-  grid-column: 2/5;
-  -ms-grid-row: 6;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4/5;
+  -ms-grid-row: 1;
   -ms-grid-row-span: 1;
-  grid-row: 6/7;
-  background-color: darkblue;
+  grid-row: 1/2;
+  background-color: #212529;
 }
 
 .Formulario .Fecha-usuario {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 3;
-  grid-column: 2/5;
-  -ms-grid-row: 7;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4/5;
+  -ms-grid-row: 2;
   -ms-grid-row-span: 1;
-  grid-row: 7/8;
-  background-color: darkblue;
+  grid-row: 2/3;
+  background-color: #212529;
 }
 
 .Formulario .Contraseña-usuario {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 3;
-  grid-column: 2/5;
-  -ms-grid-row: 8;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4/5;
+  -ms-grid-row: 3;
   -ms-grid-row-span: 1;
-  grid-row: 8/9;
-  background-color: darkblue;
+  grid-row: 3/4;
+  background-color: #212529;
 }
 
 .Formulario .Comentarios-usuario {
   -ms-grid-column: 2;
-  -ms-grid-column-span: 3;
-  grid-column: 2/5;
-  -ms-grid-row: 9;
-  -ms-grid-row-span: 1;
-  grid-row: 9/10;
-  background-color: darkblue;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 2;
+  grid-row: 7/9;
+  background-color: #212529;
 }
 
 .Formulario .Sexo-usuario {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 3;
-  grid-column: 2/5;
-  -ms-grid-row: 10;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4/5;
+  -ms-grid-row: 4;
   -ms-grid-row-span: 1;
-  grid-row: 10/11;
-  background-color: darkblue;
+  grid-row: 4/5;
+  background-color: #212529;
 }
 
 .Formulario .Terminos-usuario {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 3;
-  grid-column: 2/5;
-  -ms-grid-row: 11;
-  -ms-grid-row-span: 1;
-  grid-row: 11/12;
-  background-color: darkblue;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-column: 3/5;
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 2;
+  grid-row: 7/9;
+  background-color: #212529;
 }
 
 .Formulario .Pais-usuario {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 3;
-  grid-column: 2/5;
-  -ms-grid-row: 12;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4/5;
+  -ms-grid-row: 5;
   -ms-grid-row-span: 1;
-  grid-row: 12/13;
-  background-color: darkblue;
+  grid-row: 5/6;
+  background-color: #212529;
 }
 
 .Formulario .Botones-usuario {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 3;
-  grid-column: 2/5;
-  -ms-grid-row: 13;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-column: 3/5;
+  -ms-grid-row: 9;
   -ms-grid-row-span: 1;
-  grid-row: 13/14;
-  background-color: darkblue;
+  grid-row: 9/10;
+  background-color: #212529;
 }
 
 /* Footer Universal 5 paginas */
@@ -4426,6 +4426,216 @@ body {
 }
 
 /* media queries footer */
+@media (min-width: 320px) and (max-width: 479px) {
+  .Footer-ferrari {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30px 260px 30px;
+        grid-template-columns: 30px 260px 30px;
+    -ms-grid-row: 500;
+    grid-row: 500px;
+    gap: 10px;
+    background-color: #212529;
+    margin-left: -15px;
+  }
+  .Footer-ferrari .Footer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 20% 20% 20% 20% 20%;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+    -ms-grid-rows: 35px 90px 90px;
+        grid-template-rows: 35px 90px 90px;
+    gap: 5px;
+    color: black;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    background-color: #212529;
+    padding: 20px 0px;
+  }
+  .Footer-ferrari .Footer .ig {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: top;
+        -ms-grid-row-align: top;
+        align-self: top;
+  }
+  .Footer-ferrari .Footer .grid_instagram {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 6px;
+  }
+  .Footer-ferrari .Footer .fb {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: top;
+        -ms-grid-row-align: top;
+        align-self: top;
+  }
+  .Footer-ferrari .Footer .grid_facebook {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 6px;
+  }
+  .Footer-ferrari .Footer .in {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: top;
+        -ms-grid-row-align: top;
+        align-self: top;
+  }
+  .Footer-ferrari .Footer .grid_linkedin {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 6px;
+  }
+  .Footer-ferrari .Footer .tw {
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
+    grid-column: 4/5;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: top;
+        -ms-grid-row-align: top;
+        align-self: top;
+  }
+  .Footer-ferrari .Footer .grid_twitter {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 6px;
+  }
+  .Footer-ferrari .Footer .yt {
+    -ms-grid-column: 5;
+    -ms-grid-column-span: 1;
+    grid-column: 5/6;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: top;
+        -ms-grid-row-align: top;
+        align-self: top;
+  }
+  .Footer-ferrari .Footer .grid_youtube {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-text-decoration-line: none;
+            text-decoration-line: none;
+    color: white;
+    font-size: 6px;
+  }
+}
+
 @media (min-width: 480px) and (max-width: 599px) {
   .Footer-ferrari {
     display: -ms-grid;
@@ -5049,216 +5259,6 @@ body {
     -webkit-text-decoration-line: none;
             text-decoration-line: none;
     color: white;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 479px) {
-  .Footer-ferrari {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 30px 260px 30px;
-        grid-template-columns: 30px 260px 30px;
-    -ms-grid-row: 500;
-    grid-row: 500px;
-    gap: 10px;
-    background-color: #212529;
-    margin-left: -15px;
-  }
-  .Footer-ferrari .Footer {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 20% 20% 20% 20% 20%;
-        grid-template-columns: 20% 20% 20% 20% 20%;
-    -ms-grid-rows: 35px 90px 90px;
-        grid-template-rows: 35px 90px 90px;
-    gap: 5px;
-    color: black;
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 1;
-    grid-column: 2/3;
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 1;
-    grid-row: 1/2;
-    background-color: #212529;
-    padding: 20px 0px;
-  }
-  .Footer-ferrari .Footer .ig {
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
-    grid-column: 1/2;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    -ms-flex-item-align: top;
-        -ms-grid-row-align: top;
-        align-self: top;
-  }
-  .Footer-ferrari .Footer .grid_instagram {
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
-    grid-column: 1/2;
-    -ms-grid-row: 2;
-    -ms-grid-row-span: 2;
-    grid-row: 2/4;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-decoration: none;
-    color: white;
-    font-size: 6px;
-  }
-  .Footer-ferrari .Footer .fb {
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 1;
-    grid-column: 2/3;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    -ms-flex-item-align: top;
-        -ms-grid-row-align: top;
-        align-self: top;
-  }
-  .Footer-ferrari .Footer .grid_facebook {
-    -ms-grid-row: 2;
-    -ms-grid-row-span: 2;
-    grid-row: 2/4;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-decoration: none;
-    color: white;
-    font-size: 6px;
-  }
-  .Footer-ferrari .Footer .in {
-    -ms-grid-column: 3;
-    -ms-grid-column-span: 1;
-    grid-column: 3/4;
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 1;
-    grid-row: 1/2;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    -ms-flex-item-align: top;
-        -ms-grid-row-align: top;
-        align-self: top;
-  }
-  .Footer-ferrari .Footer .grid_linkedin {
-    -ms-grid-row: 2;
-    -ms-grid-row-span: 2;
-    grid-row: 2/4;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-decoration: none;
-    color: white;
-    font-size: 6px;
-  }
-  .Footer-ferrari .Footer .tw {
-    -ms-grid-column: 4;
-    -ms-grid-column-span: 1;
-    grid-column: 4/5;
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 1;
-    grid-row: 1/2;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    -ms-flex-item-align: top;
-        -ms-grid-row-align: top;
-        align-self: top;
-  }
-  .Footer-ferrari .Footer .grid_twitter {
-    -ms-grid-row: 2;
-    -ms-grid-row-span: 2;
-    grid-row: 2/4;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-decoration: none;
-    color: white;
-    font-size: 6px;
-  }
-  .Footer-ferrari .Footer .yt {
-    -ms-grid-column: 5;
-    -ms-grid-column-span: 1;
-    grid-column: 5/6;
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 1;
-    grid-row: 1/2;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    -ms-flex-item-align: top;
-        -ms-grid-row-align: top;
-        align-self: top;
-  }
-  .Footer-ferrari .Footer .grid_youtube {
-    -ms-grid-row: 2;
-    -ms-grid-row-span: 2;
-    grid-row: 2/4;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-text-decoration-line: none;
-            text-decoration-line: none;
-    color: white;
-    font-size: 6px;
   }
 }
 
