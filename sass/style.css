@@ -1777,7 +1777,7 @@ body {
     margin-top: -5px;
     padding-top: 50px;
     margin-left: -10px;
-    margin-right: -50px;
+    margin-right: 0;
   }
   .Autos-home1 .Logo-home1 {
     background-image: url(../imgautos/ferrari-812-superfast-logo.png);
@@ -1824,8 +1824,8 @@ body {
     gap: 25px;
     background-color: #212529;
     margin-top: -2px;
-    margin-left: -15px;
-    margin-right: -50px;
+    margin-left: -30px;
+    margin-right: 0;
   }
   .Autos-home2 .Logo-home2 {
     background-image: url(../imgautos/812-gts@logo.png);
@@ -1870,8 +1870,8 @@ body {
     gap: 25px;
     background-color: #212529;
     margin-top: -2px;
-    margin-left: -15px;
-    margin-right: -50px;
+    margin-left: -30px;
+    margin-right: 0;
   }
   .Autos-home3 .Logo-home3 {
     background-image: url(../imgautos/296gtbç.png);
@@ -1916,8 +1916,8 @@ body {
     gap: 25px;
     background-color: #212529;
     margin-top: -2px;
-    margin-left: -15px;
-    margin-right: -50px;
+    margin-left: -30px;
+    margin-right: 0;
   }
   .Autos-home4 .Logo-home4 {
     background-image: url(../imgautos/ferrari-sf90-stradale-logo-line-up.png);
@@ -1962,8 +1962,8 @@ body {
     gap: 25px;
     background-color: #212529;
     margin-top: -2px;
-    margin-left: -15px;
-    margin-right: -50px;
+    margin-left: -30px;
+    margin-right: 0;
   }
   .Autos-home5 .Logo-home5 {
     background-image: url(../imgautos/sf90spider.png);
@@ -2008,8 +2008,8 @@ body {
     gap: 25px;
     background-color: #212529;
     margin-top: -2px;
-    margin-left: -15px;
-    margin-right: -50px;
+    margin-left: -30px;
+    margin-right: 0;
   }
   .Autos-home6 .Logo-home6 {
     background-image: url(../imgautos/ferrari-f8-tributologo-2-line-up.png);
@@ -2054,8 +2054,8 @@ body {
     gap: 25px;
     background-color: #212529;
     margin-top: -2px;
-    margin-left: -15px;
-    margin-right: -50px;
+    margin-left: -30px;
+    margin-right: 0;
   }
   .Autos-home7 .Logo-home7 {
     background-image: url(../imgautos/ferrari-f8-spider-logo-2-line-up.png);
@@ -2100,8 +2100,8 @@ body {
     gap: 25px;
     background-color: #212529;
     margin-top: -2px;
-    margin-left: -15px;
-    margin-right: -50px;
+    margin-left: -30px;
+    margin-right: 0;
   }
   .Autos-home8 .Logo-home8 {
     background-image: url(../imgautos/ferrari-roma-logo-new-line-up.png);
@@ -2147,8 +2147,8 @@ body {
     background-color: #212529;
     margin-bottom: -40px;
     margin-top: -2px;
-    margin-left: -15px;
-    margin-right: -50px;
+    margin-left: -30px;
+    margin-right: 0;
   }
   .Autos-home9 .Logo-home9 {
     background-image: url(../imgautos/portofinologo.png);
