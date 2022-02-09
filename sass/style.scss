@@ -2924,7 +2924,7 @@ body{
     margin-bottom: 25px;
     display: grid;
     grid-template-columns:300px 425px 50px 425px 300px ;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px ;
+    grid-template-rows: 100px 100px 100px 100px 100px ;
     gap: 3px;
     color: white;
     
@@ -3011,6 +3011,600 @@ body{
     }
 }
 
+.PiedeFormulario{
+    margin-top: 500px;
+    display: grid;
+    grid-template-columns:300px 350px 300px  375px  ;
+    grid-template-rows: 150px 150px 100px  ;
+
+    .Comentarios-usuario{
+     grid-column: 3/4;
+     grid-row: 1/2;
+    }
+    .Terminos-usuario{
+     grid-column: 3/4;
+     grid-row: 2/3;
+    }
+    .Botones-usuario{
+      grid-column: 3/4;
+      grid-row: 3/4;
+    }
+}
+
+
+
+/* Media queries Usuario */
+
+@media (min-width:320px) and (max-width:479px){
+    .Formulario{
+    
+        margin-top: 25px;
+        margin-bottom: 25px;
+        display: grid;
+        grid-template-columns:300px 425px 50px 425px 300px ;
+        grid-template-rows: 100px 100px 100px 100px 100px ;
+        gap: 3px;
+        color: white;
+        
+    
+        .Nombre-usuario{
+          
+          grid-column: 2/3;
+          grid-row:1/2 ;
+          background-color: #212529;
+          
+        }
+        .Apellido-usuario{
+            
+            grid-column: 2/3;
+            grid-row:2/3 ;
+            background-color: #212529;
+        }
+        .Dni-usuario{
+           
+            grid-column: 2/3;
+            grid-row:3/4 ;
+            background-color: #212529;
+        }
+        .Email-usuario{
+            
+            grid-column: 2/3;
+            grid-row:4/5 ;
+            background-color: #212529;
+        }
+        .Email2-usuario{
+            
+            grid-column: 2/3;
+            grid-row:5/6 ;
+            background-color: #212529;
+        }
+        .Telefono-usuario{
+          
+            grid-column: 4/5;
+            grid-row:1/2 ;
+            background-color: #212529;
+        }
+        .Fecha-usuario{
+          
+           grid-column: 4/5;
+           grid-row:2/3 ;
+           background-color: #212529;
+        }
+        .Contraseña-usuario{
+           
+           grid-column: 4/5;
+           grid-row:3/4 ;
+           background-color: #212529;
+        }
+        .Comentarios-usuario{
+            
+             grid-column: 2/3;
+             grid-row:7/9 ;
+             background-color: #212529;
+        }
+        .Sexo-usuario{
+           
+            grid-column: 4/5;
+            grid-row:4/5 ;
+            background-color: #212529;
+        }
+        .Terminos-usuario{
+            
+            grid-column: 3/5;
+            grid-row:7/9 ;
+            background-color: #212529;
+        }
+        .Pais-usuario{
+           
+            grid-column: 4/5;
+            grid-row:5/6 ;
+            background-color: #212529;
+        }
+        .Botones-usuario{
+           
+            grid-column: 3/5;
+            grid-row:9/10 ;
+            background-color: #212529;
+            
+        }
+    }
+    
+    .PiedeFormulario{
+        margin-top: 500px;
+        display: grid;
+        grid-template-columns:300px 350px 300px  375px  ;
+        grid-template-rows: 150px 150px 100px  ;
+    
+        .Comentarios-usuario{
+         grid-column: 3/4;
+         grid-row: 1/2;
+        }
+        .Terminos-usuario{
+         grid-column: 3/4;
+         grid-row: 2/3;
+        }
+        .Botones-usuario{
+          grid-column: 3/4;
+          grid-row: 3/4;
+        }
+    }
+}
+@media (min-width:480px) and (max-width:599px){
+    .Formulario{
+    
+        margin-top: 25px;
+        margin-bottom: 25px;
+        display: grid;
+        grid-template-columns:300px 425px 50px 425px 300px ;
+        grid-template-rows: 100px 100px 100px 100px 100px ;
+        gap: 3px;
+        color: white;
+        
+    
+        .Nombre-usuario{
+          
+          grid-column: 2/3;
+          grid-row:1/2 ;
+          background-color: #212529;
+          
+        }
+        .Apellido-usuario{
+            
+            grid-column: 2/3;
+            grid-row:2/3 ;
+            background-color: #212529;
+        }
+        .Dni-usuario{
+           
+            grid-column: 2/3;
+            grid-row:3/4 ;
+            background-color: #212529;
+        }
+        .Email-usuario{
+            
+            grid-column: 2/3;
+            grid-row:4/5 ;
+            background-color: #212529;
+        }
+        .Email2-usuario{
+            
+            grid-column: 2/3;
+            grid-row:5/6 ;
+            background-color: #212529;
+        }
+        .Telefono-usuario{
+          
+            grid-column: 4/5;
+            grid-row:1/2 ;
+            background-color: #212529;
+        }
+        .Fecha-usuario{
+          
+           grid-column: 4/5;
+           grid-row:2/3 ;
+           background-color: #212529;
+        }
+        .Contraseña-usuario{
+           
+           grid-column: 4/5;
+           grid-row:3/4 ;
+           background-color: #212529;
+        }
+        .Comentarios-usuario{
+            
+             grid-column: 2/3;
+             grid-row:7/9 ;
+             background-color: #212529;
+        }
+        .Sexo-usuario{
+           
+            grid-column: 4/5;
+            grid-row:4/5 ;
+            background-color: #212529;
+        }
+        .Terminos-usuario{
+            
+            grid-column: 3/5;
+            grid-row:7/9 ;
+            background-color: #212529;
+        }
+        .Pais-usuario{
+           
+            grid-column: 4/5;
+            grid-row:5/6 ;
+            background-color: #212529;
+        }
+        .Botones-usuario{
+           
+            grid-column: 3/5;
+            grid-row:9/10 ;
+            background-color: #212529;
+            
+        }
+    }
+    
+    .PiedeFormulario{
+        margin-top: 500px;
+        display: grid;
+        grid-template-columns:300px 350px 300px  375px  ;
+        grid-template-rows: 150px 150px 100px  ;
+    
+        .Comentarios-usuario{
+         grid-column: 3/4;
+         grid-row: 1/2;
+        }
+        .Terminos-usuario{
+         grid-column: 3/4;
+         grid-row: 2/3;
+        }
+        .Botones-usuario{
+          grid-column: 3/4;
+          grid-row: 3/4;
+        }
+    }
+}
+@media (min-width:600px) and (max-width:799px){
+    .Formulario{
+    
+        margin-top: 25px;
+        margin-bottom: 25px;
+        display: grid;
+        grid-template-columns:300px 425px 50px 425px 300px ;
+        grid-template-rows: 100px 100px 100px 100px 100px ;
+        gap: 3px;
+        color: white;
+        
+    
+        .Nombre-usuario{
+          
+          grid-column: 2/3;
+          grid-row:1/2 ;
+          background-color: #212529;
+          
+        }
+        .Apellido-usuario{
+            
+            grid-column: 2/3;
+            grid-row:2/3 ;
+            background-color: #212529;
+        }
+        .Dni-usuario{
+           
+            grid-column: 2/3;
+            grid-row:3/4 ;
+            background-color: #212529;
+        }
+        .Email-usuario{
+            
+            grid-column: 2/3;
+            grid-row:4/5 ;
+            background-color: #212529;
+        }
+        .Email2-usuario{
+            
+            grid-column: 2/3;
+            grid-row:5/6 ;
+            background-color: #212529;
+        }
+        .Telefono-usuario{
+          
+            grid-column: 4/5;
+            grid-row:1/2 ;
+            background-color: #212529;
+        }
+        .Fecha-usuario{
+          
+           grid-column: 4/5;
+           grid-row:2/3 ;
+           background-color: #212529;
+        }
+        .Contraseña-usuario{
+           
+           grid-column: 4/5;
+           grid-row:3/4 ;
+           background-color: #212529;
+        }
+        .Comentarios-usuario{
+            
+             grid-column: 2/3;
+             grid-row:7/9 ;
+             background-color: #212529;
+        }
+        .Sexo-usuario{
+           
+            grid-column: 4/5;
+            grid-row:4/5 ;
+            background-color: #212529;
+        }
+        .Terminos-usuario{
+            
+            grid-column: 3/5;
+            grid-row:7/9 ;
+            background-color: #212529;
+        }
+        .Pais-usuario{
+           
+            grid-column: 4/5;
+            grid-row:5/6 ;
+            background-color: #212529;
+        }
+        .Botones-usuario{
+           
+            grid-column: 3/5;
+            grid-row:9/10 ;
+            background-color: #212529;
+            
+        }
+    }
+    
+    .PiedeFormulario{
+        margin-top: 500px;
+        display: grid;
+        grid-template-columns:300px 350px 300px  375px  ;
+        grid-template-rows: 150px 150px 100px  ;
+    
+        .Comentarios-usuario{
+         grid-column: 3/4;
+         grid-row: 1/2;
+        }
+        .Terminos-usuario{
+         grid-column: 3/4;
+         grid-row: 2/3;
+        }
+        .Botones-usuario{
+          grid-column: 3/4;
+          grid-row: 3/4;
+        }
+    }
+}
+@media (min-width:800px) and (max-width:1023px){
+    .Formulario{
+    
+        margin-top: 25px;
+        margin-bottom: 25px;
+        display: grid;
+        grid-template-columns:300px 425px 50px 425px 300px ;
+        grid-template-rows: 100px 100px 100px 100px 100px ;
+        gap: 3px;
+        color: white;
+        
+    
+        .Nombre-usuario{
+          
+          grid-column: 2/3;
+          grid-row:1/2 ;
+          background-color: #212529;
+          
+        }
+        .Apellido-usuario{
+            
+            grid-column: 2/3;
+            grid-row:2/3 ;
+            background-color: #212529;
+        }
+        .Dni-usuario{
+           
+            grid-column: 2/3;
+            grid-row:3/4 ;
+            background-color: #212529;
+        }
+        .Email-usuario{
+            
+            grid-column: 2/3;
+            grid-row:4/5 ;
+            background-color: #212529;
+        }
+        .Email2-usuario{
+            
+            grid-column: 2/3;
+            grid-row:5/6 ;
+            background-color: #212529;
+        }
+        .Telefono-usuario{
+          
+            grid-column: 4/5;
+            grid-row:1/2 ;
+            background-color: #212529;
+        }
+        .Fecha-usuario{
+          
+           grid-column: 4/5;
+           grid-row:2/3 ;
+           background-color: #212529;
+        }
+        .Contraseña-usuario{
+           
+           grid-column: 4/5;
+           grid-row:3/4 ;
+           background-color: #212529;
+        }
+        .Comentarios-usuario{
+            
+             grid-column: 2/3;
+             grid-row:7/9 ;
+             background-color: #212529;
+        }
+        .Sexo-usuario{
+           
+            grid-column: 4/5;
+            grid-row:4/5 ;
+            background-color: #212529;
+        }
+        .Terminos-usuario{
+            
+            grid-column: 3/5;
+            grid-row:7/9 ;
+            background-color: #212529;
+        }
+        .Pais-usuario{
+           
+            grid-column: 4/5;
+            grid-row:5/6 ;
+            background-color: #212529;
+        }
+        .Botones-usuario{
+           
+            grid-column: 3/5;
+            grid-row:9/10 ;
+            background-color: #212529;
+            
+        }
+    }
+    
+    .PiedeFormulario{
+        margin-top: 500px;
+        display: grid;
+        grid-template-columns:300px 350px 300px  375px  ;
+        grid-template-rows: 150px 150px 100px  ;
+    
+        .Comentarios-usuario{
+         grid-column: 3/4;
+         grid-row: 1/2;
+        }
+        .Terminos-usuario{
+         grid-column: 3/4;
+         grid-row: 2/3;
+        }
+        .Botones-usuario{
+          grid-column: 3/4;
+          grid-row: 3/4;
+        }
+    }
+}
+@media (min-width:1024px) and (max-width:2561px){
+    .Formulario{
+    
+        margin-top: 25px;
+        margin-bottom: 25px;
+        display: grid;
+        grid-template-columns:300px 425px 50px 425px 300px ;
+        grid-template-rows: 100px 100px 100px 100px 100px ;
+        gap: 3px;
+        color: white;
+        
+    
+        .Nombre-usuario{
+          
+          grid-column: 2/3;
+          grid-row:1/2 ;
+          background-color: #212529;
+          
+        }
+        .Apellido-usuario{
+            
+            grid-column: 2/3;
+            grid-row:2/3 ;
+            background-color: #212529;
+        }
+        .Dni-usuario{
+           
+            grid-column: 2/3;
+            grid-row:3/4 ;
+            background-color: #212529;
+        }
+        .Email-usuario{
+            
+            grid-column: 2/3;
+            grid-row:4/5 ;
+            background-color: #212529;
+        }
+        .Email2-usuario{
+            
+            grid-column: 2/3;
+            grid-row:5/6 ;
+            background-color: #212529;
+        }
+        .Telefono-usuario{
+          
+            grid-column: 4/5;
+            grid-row:1/2 ;
+            background-color: #212529;
+        }
+        .Fecha-usuario{
+          
+           grid-column: 4/5;
+           grid-row:2/3 ;
+           background-color: #212529;
+        }
+        .Contraseña-usuario{
+           
+           grid-column: 4/5;
+           grid-row:3/4 ;
+           background-color: #212529;
+        }
+        .Comentarios-usuario{
+            
+             grid-column: 2/3;
+             grid-row:7/9 ;
+             background-color: #212529;
+        }
+        .Sexo-usuario{
+           
+            grid-column: 4/5;
+            grid-row:4/5 ;
+            background-color: #212529;
+        }
+        .Terminos-usuario{
+            
+            grid-column: 3/5;
+            grid-row:7/9 ;
+            background-color: #212529;
+        }
+        .Pais-usuario{
+           
+            grid-column: 4/5;
+            grid-row:5/6 ;
+            background-color: #212529;
+        }
+        .Botones-usuario{
+           
+            grid-column: 3/5;
+            grid-row:9/10 ;
+            background-color: #212529;
+            
+        }
+    }
+    
+    .PiedeFormulario{
+        margin-top: 500px;
+        display: grid;
+        grid-template-columns:300px 350px 300px  375px  ;
+        grid-template-rows: 150px 150px 100px  ;
+    
+        .Comentarios-usuario{
+         grid-column: 3/4;
+         grid-row: 1/2;
+        }
+        .Terminos-usuario{
+         grid-column: 3/4;
+         grid-row: 2/3;
+        }
+        .Botones-usuario{
+          grid-column: 3/4;
+          grid-row: 3/4;
+        }
+    }
+}
 
 /* Footer Universal 5 paginas */
 
@@ -3117,6 +3711,659 @@ body{
 }
 
 }
+
+.FooterUsuario{
+    margin-top: 300px;
+    display: grid;
+    grid-template-columns: 220px 1100px 200px;
+    grid-row: 500px;
+    gap: 10px;
+    
+    background-color: #212529;
+
+.Footer {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 35px 90px 90px;
+    gap: 5px;
+    color:black;
+    grid-column:2/3 ;
+    grid-row: 1/2;
+    background-color:#212529 ;
+    padding: 20px 0px;
+
+    .ig{
+        grid-column: 1/2;
+        justify-self: center;
+        align-self: top;
+        
+    }
+    .grid_instagram{
+        grid-column: 1/2;
+        grid-row: 2/4;
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+    }
+    .fb{
+        grid-column: 2/3;
+        justify-self: center;
+        align-self: top;
+    }
+    .grid_facebook{
+        grid-row: 2/4;
+        display: flex;
+         flex-wrap: wrap;
+         flex-flow: column;
+         justify-content: center;
+         align-items: center;
+        text-decoration: none;
+        color: white;
+     
+    }
+    .in{
+        grid-column: 3/4;
+        grid-row: 1/2;
+        justify-self: center;
+        align-self: top;
+    }
+    .grid_linkedin{
+        grid-row: 2/4;
+        display: flex;
+         flex-wrap: wrap;
+         flex-flow: column;
+         justify-content: center;
+         align-items: center;
+         text-decoration: none;
+         color: white;
+    }
+    .tw{
+        grid-column: 4/5;
+        grid-row: 1/2;
+       justify-self: center;
+       align-self: top;
+    }
+    .grid_twitter{
+        grid-row: 2/4;
+        display: flex;
+         flex-wrap: wrap;
+         flex-flow: column;
+         justify-content: center;
+         align-items: center;
+         text-decoration: none;
+         color: white;
+    }
+    .yt{
+        grid-column: 5/6;
+        grid-row: 1/2;
+        justify-self: center;
+        align-self: top;
+    }
+    .grid_youtube{
+        grid-row: 2/4;
+        display: flex;
+         flex-wrap: wrap;
+         flex-flow: column;
+         justify-content: center;
+         align-items: center;
+         text-decoration-line: none;
+         color: white;
+    }
+}
+}
+
+
+
+
+
+/* media queries footer usuario */
+@media (min-width:320px) and (max-width:479px){
+    .FooterUsuario{
+        display: grid;
+        grid-template-columns: 30px 260px 30px;
+        grid-row: 500px;
+        gap: 10px;
+         background-color: #212529;
+         margin-left: -15px;
+    
+    .Footer {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: 35px 90px 90px;
+        gap: 5px;
+        color:black;
+        grid-column:2/3 ;
+        grid-row: 1/2;
+        background-color:#212529 ;
+        padding: 20px 0px;
+    
+        .ig{
+            grid-column: 1/2;
+            justify-self: center;
+            align-self: top;
+            
+        }
+        .grid_instagram{
+            grid-column: 1/2;
+            grid-row: 2/4;
+            display: flex;
+            flex-wrap: wrap;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            font-size: 6px;
+        }
+        .fb{
+            grid-column: 2/3;
+            justify-self: center;
+            align-self: top;
+        }
+        .grid_facebook{
+            grid-row: 2/4;
+            display: flex;
+             flex-wrap: wrap;
+             flex-flow: column;
+             justify-content: center;
+             align-items: center;
+            text-decoration: none;
+            color: white;
+            font-size: 6px;
+         
+        }
+        .in{
+            grid-column: 3/4;
+            grid-row: 1/2;
+            justify-self: center;
+            align-self: top;
+        }
+        .grid_linkedin{
+            grid-row: 2/4;
+            display: flex;
+             flex-wrap: wrap;
+             flex-flow: column;
+             justify-content: center;
+             align-items: center;
+             text-decoration: none;
+             color: white;
+             font-size: 6px;
+        }
+        .tw{
+            grid-column: 4/5;
+            grid-row: 1/2;
+           justify-self: center;
+           align-self: top;
+        }
+        .grid_twitter{
+            grid-row: 2/4;
+            display: flex;
+             flex-wrap: wrap;
+             flex-flow: column;
+             justify-content: center;
+             align-items: center;
+             text-decoration: none;
+             color: white;
+             font-size: 6px;
+        }
+        .yt{
+            grid-column: 5/6;
+            grid-row: 1/2;
+            justify-self: center;
+            align-self: top;
+        }
+        .grid_youtube{
+            grid-row: 2/4;
+            display: flex;
+             flex-wrap: wrap;
+             flex-flow: column;
+             justify-content: center;
+             align-items: center;
+             text-decoration-line: none;
+             color: white;
+             font-size: 6px;
+        }
+    }
+    
+    }
+}
+@media (min-width:480px) and (max-width:599px){
+    .FooterUsuario{
+        display: grid;
+        grid-template-columns: 96px 288px 96px;
+        grid-row: 500px;
+        gap: 10px;
+        background-color: #212529;
+    
+    .Footer {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: 35px 90px 90px;
+        gap: 5px;
+        color:black;
+        grid-column:2/3 ;
+        grid-row: 1/2;
+        background-color:#212529 ;
+        padding: 20px 0px;
+    
+        .ig{
+            grid-column: 1/2;
+            max-width: 75px;
+            height: 100%;
+            justify-self: center;
+            align-self: top;
+            
+        }
+        .grid_instagram{
+            font-size: 6px;
+            grid-column: 1/2;
+            grid-row: 2/4;
+            display: flex;
+            flex-wrap: wrap;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+        }
+        .fb{
+            grid-column: 2/3;
+            justify-self: center;
+            align-self: top;
+        }
+        .grid_facebook{
+            font-size: 6px;
+            grid-row: 2/4;
+            display: flex;
+             flex-wrap: wrap;
+             flex-flow: column;
+             justify-content: center;
+             align-items: center;
+            text-decoration: none;
+            color: white;
+         
+        }
+        .in{
+            grid-column: 3/4;
+            grid-row: 1/2;
+            justify-self: center;
+            align-self: top;
+        }
+        .grid_linkedin{
+            font-size: 6px;
+            grid-row: 2/4;
+            display: flex;
+             flex-wrap: wrap;
+             flex-flow: column;
+             justify-content: center;
+             align-items: center;
+             text-decoration: none;
+             color: white;
+        }
+        .tw{
+            grid-column: 4/5;
+            grid-row: 1/2;
+           justify-self: center;
+           align-self: top;
+        }
+        .grid_twitter{
+            font-size: 6px;
+            grid-row: 2/4;
+            display: flex;
+             flex-wrap: wrap;
+             flex-flow: column;
+             justify-content: center;
+             align-items: center;
+             text-decoration: none;
+             color: white;
+        }
+        .yt{
+            grid-column: 5/6;
+            grid-row: 1/2;
+            justify-self: center;
+            align-self: top;
+        }
+        .grid_youtube{
+            font-size: 6px;
+            grid-row: 2/4;
+            display: flex;
+             flex-wrap: wrap;
+             flex-flow: column;
+             justify-content: center;
+             align-items: center;
+             text-decoration-line: none;
+             color: white;
+        }
+    }
+    
+    }
+}
+@media (min-width:600px) and (max-width:799px){
+    .FooterUsuario{
+        display: grid;
+        grid-template-columns: 120px 360px 120px;
+        grid-row: 300px;
+        gap: 10px;
+        margin-top: -5px;
+        background-color: #212529;
+    
+    .Footer {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: 35px 90px 90px;
+        gap: 5px;
+        color:black;
+        grid-column:2/3 ;
+        grid-row: 1/2;
+        background-color:#212529 ;
+        padding: 20px 0px;
+    
+        .ig{
+            grid-column: 1/2;
+            justify-self: center;
+            align-self: top;
+            
+        }
+        .grid_instagram{
+            grid-column: 1/2;
+            grid-row: 2/4;
+            display: flex;
+            flex-wrap: wrap;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            font-size: 7px;
+        }
+        .fb{
+            grid-column: 2/3;
+            justify-self: center;
+            align-self: top;
+        }
+        .grid_facebook{
+            grid-row: 2/4;
+            display: flex;
+             flex-wrap: wrap;
+             flex-flow: column;
+             justify-content: center;
+             align-items: center;
+            text-decoration: none;
+            color: white;
+            font-size: 7px;
+         
+        }
+        .in{
+            grid-column: 3/4;
+            grid-row: 1/2;
+            justify-self: center;
+            align-self: top;
+        }
+        .grid_linkedin{
+            grid-row: 2/4;
+            display: flex;
+             flex-wrap: wrap;
+             flex-flow: column;
+             justify-content: center;
+             align-items: center;
+             text-decoration: none;
+             color: white;
+             font-size: 7px;
+        }
+        .tw{
+            grid-column: 4/5;
+            grid-row: 1/2;
+           justify-self: center;
+           align-self: top;
+        }
+        .grid_twitter{
+            grid-row: 2/4;
+            display: flex;
+             flex-wrap: wrap;
+             flex-flow: column;
+             justify-content: center;
+             align-items: center;
+             text-decoration: none;
+             color: white;
+             font-size: 7px;
+        }
+        .yt{
+            grid-column: 5/6;
+            grid-row: 1/2;
+            justify-self: center;
+            align-self: top;
+        }
+        .grid_youtube{
+            grid-row: 2/4;
+            display: flex;
+             flex-wrap: wrap;
+             flex-flow: column;
+             justify-content: center;
+             align-items: center;
+             text-decoration-line: none;
+             color: white;
+             font-size: 7px;
+        }
+    }
+    
+    }
+}
+@media (min-width:800px) and (max-width:1023px){
+    .FooterUsuario{
+        display: grid;
+        grid-template-columns: 160px 480px 160px;
+        grid-row: 500px;
+        gap: 10px;
+        margin-top: -5px;
+        background-color: #212529;
+    
+    .Footer {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: 35px 90px 90px;
+        gap: 5px;
+        color:black;
+        grid-column:2/3 ;
+        grid-row: 1/2;
+        background-color:#212529 ;
+        padding: 20px 0px;
+    
+        .ig{
+            grid-column: 1/2;
+            justify-self: center;
+            align-self: top;
+            
+        }
+        .grid_instagram{
+            grid-column: 1/2;
+            grid-row: 2/4;
+            display: flex;
+            flex-wrap: wrap;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+        }
+        .fb{
+            grid-column: 2/3;
+            justify-self: center;
+            align-self: top;
+        }
+        .grid_facebook{
+            grid-row: 2/4;
+            display: flex;
+             flex-wrap: wrap;
+             flex-flow: column;
+             justify-content: center;
+             align-items: center;
+            text-decoration: none;
+            color: white;
+         
+        }
+        .in{
+            grid-column: 3/4;
+            grid-row: 1/2;
+            justify-self: center;
+            align-self: top;
+        }
+        .grid_linkedin{
+            grid-row: 2/4;
+            display: flex;
+             flex-wrap: wrap;
+             flex-flow: column;
+             justify-content: center;
+             align-items: center;
+             text-decoration: none;
+             color: white;
+        }
+        .tw{
+            grid-column: 4/5;
+            grid-row: 1/2;
+           justify-self: center;
+           align-self: top;
+        }
+        .grid_twitter{
+            grid-row: 2/4;
+            display: flex;
+             flex-wrap: wrap;
+             flex-flow: column;
+             justify-content: center;
+             align-items: center;
+             text-decoration: none;
+             color: white;
+        }
+        .yt{
+            grid-column: 5/6;
+            grid-row: 1/2;
+            justify-self: center;
+            align-self: top;
+        }
+        .grid_youtube{
+            grid-row: 2/4;
+            display: flex;
+             flex-wrap: wrap;
+             flex-flow: column;
+             justify-content: center;
+             align-items: center;
+             text-decoration-line: none;
+             color: white;
+        }
+    }
+    
+    }
+}
+@media (min-width:1024px) and (max-width:2561px){
+    .FooterUsuario{
+        margin-top: 300px;
+        display: grid;
+        grid-template-columns: 220px 1100px 200px;
+        grid-row: 500px;
+        gap: 10px;
+        
+        background-color: #212529;
+    
+    .Footer {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: 35px 90px 90px;
+        gap: 5px;
+        color:black;
+        grid-column:2/3 ;
+        grid-row: 1/2;
+        background-color:#212529 ;
+        padding: 20px 0px;
+    
+        .ig{
+            grid-column: 1/2;
+            justify-self: center;
+            align-self: top;
+            
+        }
+        .grid_instagram{
+            grid-column: 1/2;
+            grid-row: 2/4;
+            display: flex;
+            flex-wrap: wrap;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+        }
+        .fb{
+            grid-column: 2/3;
+            justify-self: center;
+            align-self: top;
+        }
+        .grid_facebook{
+            grid-row: 2/4;
+            display: flex;
+             flex-wrap: wrap;
+             flex-flow: column;
+             justify-content: center;
+             align-items: center;
+            text-decoration: none;
+            color: white;
+         
+        }
+        .in{
+            grid-column: 3/4;
+            grid-row: 1/2;
+            justify-self: center;
+            align-self: top;
+        }
+        .grid_linkedin{
+            grid-row: 2/4;
+            display: flex;
+             flex-wrap: wrap;
+             flex-flow: column;
+             justify-content: center;
+             align-items: center;
+             text-decoration: none;
+             color: white;
+        }
+        .tw{
+            grid-column: 4/5;
+            grid-row: 1/2;
+           justify-self: center;
+           align-self: top;
+        }
+        .grid_twitter{
+            grid-row: 2/4;
+            display: flex;
+             flex-wrap: wrap;
+             flex-flow: column;
+             justify-content: center;
+             align-items: center;
+             text-decoration: none;
+             color: white;
+        }
+        .yt{
+            grid-column: 5/6;
+            grid-row: 1/2;
+            justify-self: center;
+            align-self: top;
+        }
+        .grid_youtube{
+            grid-row: 2/4;
+            display: flex;
+             flex-wrap: wrap;
+             flex-flow: column;
+             justify-content: center;
+             align-items: center;
+             text-decoration-line: none;
+             color: white;
+        }
+    }
+    
+    }
+}
+
 
 /* media queries footer */
 
