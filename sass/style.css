@@ -4255,12 +4255,13 @@ body {
     margin-bottom: 25px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 300px 425px 50px 425px 300px;
-        grid-template-columns: 300px 425px 50px 425px 300px;
+    -ms-grid-columns: 30px 125px 10px 125px 30px;
+        grid-template-columns: 30px 125px 10px 125px 30px;
     -ms-grid-rows: 100px 100px 100px 100px 100px;
         grid-template-rows: 100px 100px 100px 100px 100px;
     gap: 3px;
     color: white;
+    font-size: 6px;
   }
   .Formulario .Nombre-usuario {
     -ms-grid-column: 2;
@@ -4383,10 +4384,11 @@ body {
     margin-top: 500px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 300px 350px 300px  375px;
-        grid-template-columns: 300px 350px 300px  375px;
+    -ms-grid-columns: 30px 130px 130px  30px;
+        grid-template-columns: 30px 130px 130px  30px;
     -ms-grid-rows: 150px 150px 100px;
         grid-template-rows: 150px 150px 100px;
+    font-size: 6px;
   }
   .PiedeFormulario .Comentarios-usuario {
     -ms-grid-column: 3;
@@ -4420,12 +4422,13 @@ body {
     margin-bottom: 25px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 300px 425px 50px 425px 300px;
-        grid-template-columns: 300px 425px 50px 425px 300px;
+    -ms-grid-columns: 60px 160px 30px 160px 60px;
+        grid-template-columns: 60px 160px 30px 160px 60px;
     -ms-grid-rows: 100px 100px 100px 100px 100px;
         grid-template-rows: 100px 100px 100px 100px 100px;
     gap: 3px;
     color: white;
+    font-size: 8px;
   }
   .Formulario .Nombre-usuario {
     -ms-grid-column: 2;
@@ -4548,10 +4551,11 @@ body {
     margin-top: 500px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 300px 350px 300px  375px;
-        grid-template-columns: 300px 350px 300px  375px;
+    -ms-grid-columns: 60px 180px 180px 60px;
+        grid-template-columns: 60px 180px 180px 60px;
     -ms-grid-rows: 150px 150px 100px;
         grid-template-rows: 150px 150px 100px;
+    font-size: 8px;
   }
   .PiedeFormulario .Comentarios-usuario {
     -ms-grid-column: 3;
@@ -4585,12 +4589,13 @@ body {
     margin-bottom: 25px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 300px 425px 50px 425px 300px;
-        grid-template-columns: 300px 425px 50px 425px 300px;
+    -ms-grid-columns: 100px 180px 40px 180px 100px;
+        grid-template-columns: 100px 180px 40px 180px 100px;
     -ms-grid-rows: 100px 100px 100px 100px 100px;
         grid-template-rows: 100px 100px 100px 100px 100px;
     gap: 3px;
     color: white;
+    font-size: 9px;
   }
   .Formulario .Nombre-usuario {
     -ms-grid-column: 2;
@@ -4710,13 +4715,14 @@ body {
     background-color: #212529;
   }
   .PiedeFormulario {
-    margin-top: 500px;
+    /* margin-top: 500px; */
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 300px 350px 300px  375px;
-        grid-template-columns: 300px 350px 300px  375px;
-    -ms-grid-rows: 150px 150px 100px;
-        grid-template-rows: 150px 150px 100px;
+    -ms-grid-columns: 100px 200px 200px 100px;
+        grid-template-columns: 100px 200px 200px 100px;
+    -ms-grid-rows: 90px 50px 30px;
+        grid-template-rows: 90px 50px 30px;
+    font-size: 9px;
   }
   .PiedeFormulario .Comentarios-usuario {
     -ms-grid-column: 3;
@@ -4750,12 +4756,13 @@ body {
     margin-bottom: 25px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 300px 425px 50px 425px 300px;
-        grid-template-columns: 300px 425px 50px 425px 300px;
+    -ms-grid-columns: 120px 255px 50px 255px 120px;
+        grid-template-columns: 120px 255px 50px 255px 120px;
     -ms-grid-rows: 100px 100px 100px 100px 100px;
         grid-template-rows: 100px 100px 100px 100px 100px;
     gap: 3px;
     color: white;
+    font-size: 11px;
   }
   .Formulario .Nombre-usuario {
     -ms-grid-column: 2;
@@ -4878,8 +4885,8 @@ body {
     margin-top: 500px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 300px 350px 300px  375px;
-        grid-template-columns: 300px 350px 300px  375px;
+    -ms-grid-columns: 120px 280px 280px  120px;
+        grid-template-columns: 120px 280px 280px  120px;
     -ms-grid-rows: 150px 150px 100px;
         grid-template-rows: 150px 150px 100px;
   }
@@ -5933,7 +5940,7 @@ body {
     -ms-grid-row: 300;
     grid-row: 300px;
     gap: 10px;
-    margin-top: -5px;
+    margin-top: 100px;
     background-color: #212529;
   }
   .FooterUsuario .Footer {
@@ -6143,7 +6150,7 @@ body {
     -ms-grid-row: 500;
     grid-row: 500px;
     gap: 10px;
-    margin-top: -5px;
+    margin-top: 250px;
     background-color: #212529;
   }
   .FooterUsuario .Footer {
