@@ -2828,11 +2828,6 @@ body{
     }
 }
 
-
-
-
-
-
 .Universo-home2 {
    @include Universo2
 
@@ -2914,6 +2909,639 @@ body{
 }
 
 
+/* Media queries Universo */
+
+@media (min-width:320px) and (max-width:479px){
+   
+
+@mixin Universo {
+   
+    display: grid;
+    grid-template-columns:60px 200px 60px ;
+    grid-template-rows: 500px 500px 500px;
+    gap: 1px;
+    background-color: #212529;
+    margin-left: -90px;
+}
+
+@mixin Universo2 {
+   
+   
+   background-color: #212529;
+   display: grid;
+   grid-template-columns: 60px 200px 60px ;
+   grid-template-rows: 500px 500px 500px 500px 500px 500px;
+   gap: 10px;
+   margin-left: -99px;
+}
+
+@mixin Tarjeta1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-bottom: 20px;
+}
+
+@mixin Tarjeta2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-bottom: 20px;
+}
+
+@mixin Tarjeta3 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin-bottom: 20px;
+}
+
+@mixin Tarjeta4 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    margin-bottom: 20px;
+}
+
+@mixin Tarjeta5 {
+    grid-column: 2/3;
+    grid-row: 5/6;
+    margin-bottom: 20px;
+}
+
+@mixin Tarjeta6 {
+    grid-column: 2/3;
+    grid-row: 6/7;
+    margin-bottom: 20px;
+}
+
+
+.Universo-home1{
+    @include Universo
+
+    .Tarjeta1{
+        @include Tarjeta1
+    }
+    .Tarjeta2{
+        @include Tarjeta2
+    }
+    .Tarjeta3{
+        @include Tarjeta3
+    }
+}
+
+.Universo-home2 {
+   @include Universo2
+
+    .Tarjeta4{
+       @include Tarjeta1
+    }
+    .Tarjeta5{
+        @include Tarjeta2
+    }
+    .Tarjeta6{
+        @include Tarjeta3
+     }
+    .Tarjeta7{
+        @include Tarjeta4
+    }
+    .Tarjeta8{
+        @include Tarjeta5
+
+    }
+    .Tarjeta9{
+        @include Tarjeta6
+    }
+}
+
+.Universo-home3{
+    @include Universo
+
+    .Tarjeta10{
+     @include Tarjeta1
+    }
+    .Tarjeta11{
+        @include Tarjeta2
+    }
+    .Tarjeta12{
+        @include Tarjeta3
+    }
+}
+
+.Universo-home4{
+    @include Universo
+    
+    .Tarjeta13{
+        @include Tarjeta1
+    }
+    .Tarjeta14{
+        @include Tarjeta2
+    }
+    .Tarjeta15{
+        @include Tarjeta3
+    }
+}
+
+.Universo-home5{
+    @include Universo
+
+    .Tarjeta16 {
+         @include Tarjeta1
+     }
+    .Tarjeta17{
+        @include Tarjeta2
+    }
+    .Tarjeta18{
+        @include Tarjeta3
+    }
+}
+
+.Universo-home6{
+    @include Universo
+
+    .Tarjeta19{
+        @include Tarjeta1
+    }
+    .Tarjeta20{
+        @include Tarjeta2
+    }
+    .Tarjeta21{
+        @include Tarjeta3
+    }
+}
+ 
+}
+
+@media (min-width:480px) and (max-width:599px){
+
+    @mixin Universo {
+   
+        display: grid;
+        grid-template-columns:90px 300px 90px ;
+        grid-template-rows: 600px 600px 600px;
+        gap: 1px;
+        background-color: #212529;
+        margin-left: -30px;
+    }
+    
+    @mixin Universo2 {
+       
+       
+       background-color: #212529;
+       display: grid;
+       grid-template-columns: 90px 300px 90px ;
+       grid-template-rows: 600px 600px 600px 600px 600px 600px;
+       gap: 10px;
+       margin-left: -39px;
+    }
+    
+    @mixin Tarjeta1 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin-bottom: 20px;
+    }
+    
+    @mixin Tarjeta2 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin-bottom: 20px;
+    }
+    
+    @mixin Tarjeta3 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+        margin-bottom: 20px;
+    }
+    
+    @mixin Tarjeta4 {
+        grid-column: 2/3;
+        grid-row: 4/5;
+        margin-bottom: 20px;
+    }
+    
+    @mixin Tarjeta5 {
+        grid-column: 2/3;
+        grid-row: 5/6;
+        margin-bottom: 20px;
+    }
+    
+    @mixin Tarjeta6 {
+        grid-column: 2/3;
+        grid-row: 6/7;
+        margin-bottom: 20px;
+    }
+    
+    
+    .Universo-home1{
+        @include Universo
+    
+        .Tarjeta1{
+            @include Tarjeta1
+        }
+        .Tarjeta2{
+            @include Tarjeta2
+        }
+        .Tarjeta3{
+            @include Tarjeta3
+        }
+    }
+    
+    .Universo-home2 {
+       @include Universo2
+    
+        .Tarjeta4{
+           @include Tarjeta1
+        }
+        .Tarjeta5{
+            @include Tarjeta2
+        }
+        .Tarjeta6{
+            @include Tarjeta3
+         }
+        .Tarjeta7{
+            @include Tarjeta4
+        }
+        .Tarjeta8{
+            @include Tarjeta5
+    
+        }
+        .Tarjeta9{
+            @include Tarjeta6
+        }
+    }
+    
+    .Universo-home3{
+        @include Universo
+    
+        .Tarjeta10{
+         @include Tarjeta1
+        }
+        .Tarjeta11{
+            @include Tarjeta2
+        }
+        .Tarjeta12{
+            @include Tarjeta3
+        }
+    }
+    
+    .Universo-home4{
+        @include Universo
+        
+        .Tarjeta13{
+            @include Tarjeta1
+        }
+        .Tarjeta14{
+            @include Tarjeta2
+        }
+        .Tarjeta15{
+            @include Tarjeta3
+        }
+    }
+    
+    .Universo-home5{
+        @include Universo
+    
+        .Tarjeta16 {
+             @include Tarjeta1
+         }
+        .Tarjeta17{
+            @include Tarjeta2
+        }
+        .Tarjeta18{
+            @include Tarjeta3
+        }
+    }
+    
+    .Universo-home6{
+        @include Universo
+    
+        .Tarjeta19{
+            @include Tarjeta1
+        }
+        .Tarjeta20{
+            @include Tarjeta2
+        }
+        .Tarjeta21{
+            @include Tarjeta3
+        }
+    }
+}
+@media (min-width:600px) and (max-width:799px){
+
+    @mixin Universo {
+   
+        display: grid;
+        grid-template-columns:100px 400px 100px ;
+        grid-template-rows: 600px 600px 600px;
+        gap: 1px;
+        background-color: #212529;
+        margin-left: 50px;
+    }
+    
+    @mixin Universo2 {
+       
+       
+       background-color: #212529;
+       display: grid;
+       grid-template-columns: 100px 400px 100px ;
+       grid-template-rows: 600px 600px 600px 600px 600px 600px;
+       gap: 10px;
+       margin-left: 41px;
+    }
+    
+    @mixin Tarjeta1 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin-bottom: 20px;
+    }
+    
+    @mixin Tarjeta2 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin-bottom: 20px;
+    }
+    
+    @mixin Tarjeta3 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+        margin-bottom: 20px;
+    }
+    
+    @mixin Tarjeta4 {
+        grid-column: 2/3;
+        grid-row: 4/5;
+        margin-bottom: 20px;
+    }
+    
+    @mixin Tarjeta5 {
+        grid-column: 2/3;
+        grid-row: 5/6;
+        margin-bottom: 20px;
+    }
+    
+    @mixin Tarjeta6 {
+        grid-column: 2/3;
+        grid-row: 6/7;
+        margin-bottom: 20px;
+    }
+    
+    
+    .Universo-home1{
+        @include Universo
+    
+        .Tarjeta1{
+            @include Tarjeta1
+        }
+        .Tarjeta2{
+            @include Tarjeta2
+        }
+        .Tarjeta3{
+            @include Tarjeta3
+        }
+    }
+    
+    .Universo-home2 {
+       @include Universo2
+    
+        .Tarjeta4{
+           @include Tarjeta1
+        }
+        .Tarjeta5{
+            @include Tarjeta2
+        }
+        .Tarjeta6{
+            @include Tarjeta3
+         }
+        .Tarjeta7{
+            @include Tarjeta4
+        }
+        .Tarjeta8{
+            @include Tarjeta5
+    
+        }
+        .Tarjeta9{
+            @include Tarjeta6
+        }
+    }
+    
+    .Universo-home3{
+        @include Universo
+    
+        .Tarjeta10{
+         @include Tarjeta1
+        }
+        .Tarjeta11{
+            @include Tarjeta2
+        }
+        .Tarjeta12{
+            @include Tarjeta3
+        }
+    }
+    
+    .Universo-home4{
+        @include Universo
+        
+        .Tarjeta13{
+            @include Tarjeta1
+        }
+        .Tarjeta14{
+            @include Tarjeta2
+        }
+        .Tarjeta15{
+            @include Tarjeta3
+        }
+    }
+    
+    .Universo-home5{
+        @include Universo
+    
+        .Tarjeta16 {
+             @include Tarjeta1
+         }
+        .Tarjeta17{
+            @include Tarjeta2
+        }
+        .Tarjeta18{
+            @include Tarjeta3
+        }
+    }
+    
+    .Universo-home6{
+        @include Universo
+    
+        .Tarjeta19{
+            @include Tarjeta1
+        }
+        .Tarjeta20{
+            @include Tarjeta2
+        }
+        .Tarjeta21{
+            @include Tarjeta3
+        }
+    }
+}
+@media (min-width:800px) and (max-width:1023px){
+
+    @mixin Universo {
+   
+        display: grid;
+        grid-template-columns:100px 200px 200px 200px 100px  ;
+        grid-template-rows: 680px ;
+        gap: 10px;
+        background-color: #212529;
+        margin-left: -100px;
+    }
+    
+    @mixin Universo2 {
+       
+       
+       background-color: #212529;
+       display: grid;
+       grid-template-columns: 100px 200px 200px 200px 100px  ;
+       grid-template-rows: 650px ;
+       gap: 10px;
+       margin-left: -100px;
+    }
+    
+    @mixin Tarjeta1 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        
+        max-width: 200px;
+    }
+    
+    @mixin Tarjeta2 {
+        grid-column: 3/4;
+        grid-row: 1/2;
+        
+        max-width: 200px;
+    }
+    
+    @mixin Tarjeta3 {
+        grid-column: 4/5;
+        grid-row: 1/2;
+        
+        max-width: 200px;
+    }
+    
+    @mixin Tarjeta4 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        
+        max-width: 200px;
+    }
+    
+    @mixin Tarjeta5 {
+        grid-column: 3/4;
+        grid-row: 1/2;
+        
+        max-width: 200px;
+    }
+    
+    @mixin Tarjeta6 {
+        grid-column: 4/5;
+        grid-row: 1/2;
+        
+        max-width: 200px;
+    }
+    
+    
+    .Universo-home1{
+        @include Universo
+       
+
+        .Tarjeta1{
+            @include Tarjeta1
+            max-height:580px;
+        }
+        .Tarjeta2{
+            @include Tarjeta2
+            max-height:580px;
+        }
+        .Tarjeta3{
+            @include Tarjeta3
+            max-height:580px;
+        }
+    }
+    
+    .Universo-home2 {
+       @include Universo2
+    
+        .Tarjeta4{
+           @include Tarjeta1
+           max-height:600px;
+        }
+        .Tarjeta5{
+            @include Tarjeta2
+            max-height:500px;
+        }
+        .Tarjeta6{
+            @include Tarjeta3
+         }
+        .Tarjeta7{
+            @include Tarjeta4
+        }
+        .Tarjeta8{
+            @include Tarjeta5
+    
+        }
+        .Tarjeta9{
+            @include Tarjeta6
+        }
+    }
+    
+    .Universo-home3{
+        @include Universo
+    
+        .Tarjeta10{
+         @include Tarjeta1
+        }
+        .Tarjeta11{
+            @include Tarjeta2
+        }
+        .Tarjeta12{
+            @include Tarjeta3
+        }
+    }
+    
+    .Universo-home4{
+        @include Universo
+        
+        .Tarjeta13{
+            @include Tarjeta1
+        }
+        .Tarjeta14{
+            @include Tarjeta2
+        }
+        .Tarjeta15{
+            @include Tarjeta3
+        }
+    }
+    
+    .Universo-home5{
+        @include Universo
+    
+        .Tarjeta16 {
+             @include Tarjeta1
+         }
+        .Tarjeta17{
+            @include Tarjeta2
+        }
+        .Tarjeta18{
+            @include Tarjeta3
+        }
+    }
+    
+    .Universo-home6{
+        @include Universo
+    
+        .Tarjeta19{
+            @include Tarjeta1
+        }
+        .Tarjeta20{
+            @include Tarjeta2
+        }
+        .Tarjeta21{
+            @include Tarjeta3
+        }
+    }
+}
 
 
 /* Pagina de Usuario */
