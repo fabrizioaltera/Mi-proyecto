@@ -3786,14 +3786,51 @@ body {
   margin-bottom: 50px;
 }
 
+.Tienda-Home .Tienda-home1 .Tienda1 {
+  margin-bottom: 5px;
+}
+
+.Tienda-Home .Tienda-home1 .Tienda2 {
+  margin-bottom: 5px;
+}
+
+.Tienda-Home .Tienda-home1 .Tienda3 {
+  margin-bottom: 5px;
+}
+
 .Tienda-Home .Tienda-home2 {
   margin-bottom: 50px;
+}
+
+.Tienda-Home .Tienda-home2 .Tienda4 {
+  margin-bottom: 5px;
+}
+
+.Tienda-Home .Tienda-home2 .Tienda5 {
+  margin-bottom: 5px;
+}
+
+.Tienda-Home .Tienda-home2 .Tienda6 {
+  margin-bottom: 5px;
 }
 
 .Tienda-Home .Tienda-home3 {
   margin-bottom: 50px;
 }
 
+.Tienda-Home .Tienda-home3 .Tienda7 {
+  margin-bottom: 5px;
+}
+
+.Tienda-Home .Tienda-home3 .Tienda8 {
+  margin-bottom: 5px;
+}
+
+.Tienda-Home .Tienda-home3 .Tienda9 {
+  margin-bottom: 5px;
+}
+
+/* Media queries Tienda */
 /* Pagina Universo */
 .Universo-home1 {
   /* margin-top: 25px;
